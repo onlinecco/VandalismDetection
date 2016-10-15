@@ -1,0 +1,1000 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikidata</sitename>
+    <dbname>wikidatawiki</dbname>
+    <base>http://www.wikidata.org/wiki/Wikidata:Main_Page</base>
+    <generator/>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="0" case="first-letter"/>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Q2019277</title>
+    <ns>0</ns>
+    <id>1947371</id>
+    <revision>
+      <id>2916961</id>
+      <parentid>2742389</parentid>
+      <timestamp>2013-01-01T00:02:43Z</timestamp>
+      <contributor>
+        <username>Chris857</username>
+        <id>5603</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ Barcelona Metro station</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2019277","labels":{"nl":{"language":"nl","value":"Sant Roc"},"ca":{"language":"ca","value":"Estaci\u00f3 de Sant Roc"},"en":{"language":"en","value":"Sant Roc"},"es":{"language":"es","value":"Estaci\u00f3n de Sant Roc"},"it":{"language":"it","value":"Sant Roc"},"pl":{"language":"pl","value":"Sant Roc"},"pt":{"language":"pt","value":"Esta\u00e7\u00e3o Sant Roc"}},"descriptions":{"en":{"language":"en","value":"Barcelona Metro station"}},"aliases":[],"claims":[],"sitelinks":{"nlwiki":{"site":"nlwiki","title":"Sant Roc (metrostation)","badges":[]},"cawiki":{"site":"cawiki","title":"Estaci\u00f3 de Sant Roc","badges":[]},"enwiki":{"site":"enwiki","title":"Sant Roc (Barcelona Metro)","badges":[]},"eswiki":{"site":"eswiki","title":"Estaci\u00f3n de Sant Roc","badges":[]},"itwiki":{"site":"itwiki","title":"Sant Roc (metropolitana di Barcellona)","badges":[]},"plwiki":{"site":"plwiki","title":"Sant Roc (metro w Barcelonie)","badges":[]},"ptwiki":{"site":"ptwiki","title":"Esta\u00e7\u00e3o Sant Roc","badges":[]}}}</text>
+      <sha1>40ridc14emhx2og9eq6a8j7hglr0pby</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q1806933</title>
+    <ns>0</ns>
+    <id>1738119</id>
+    <revision>
+      <id>2916994</id>
+      <parentid>2502697</parentid>
+      <timestamp>2013-01-01T00:03:18Z</timestamp>
+      <contributor>
+        <username>Chris857</username>
+        <id>5603</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ actor and comedian from New Zealand</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1806933","labels":{"nl":{"language":"nl","value":"Rhys Darby"},"en":{"language":"en","value":"Rhys Darby"},"fr":{"language":"fr","value":"Rhys Darby"},"pt":{"language":"pt","value":"Rhys Darby"},"sv":{"language":"sv","value":"Rhys Darby"}},"descriptions":{"en":{"language":"en","value":"actor and comedian from New Zealand"}},"aliases":[],"claims":[],"sitelinks":{"nlwiki":{"site":"nlwiki","title":"Rhys Darby","badges":[]},"enwiki":{"site":"enwiki","title":"Rhys Darby","badges":[]},"frwiki":{"site":"frwiki","title":"Rhys Darby","badges":[]},"ptwiki":{"site":"ptwiki","title":"Rhys Darby","badges":[]},"svwiki":{"site":"svwiki","title":"Rhys Darby","badges":[]}}}</text>
+      <sha1>tu3wgunq3xxdahntqrgtajh7fb2c3gm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2150026</title>
+    <ns>0</ns>
+    <id>2075540</id>
+    <revision>
+      <id>2917173</id>
+      <timestamp>2013-01-01T00:06:03Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* special-create-item:2|en */ , Cabinet Minister in the Bharatiya Janata Party ministry of Gujarat state of India</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2150026","labels":[],"descriptions":{"en":{"language":"en","value":"Cabinet Minister in the Bharatiya Janata Party ministry of Gujarat state of India"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"Vajubhai Vala","badges":[]}}}</text>
+      <sha1>3srmtqmxyk74cbz0vocfi6c5tsubbl5</sha1>
+    </revision>
+    <revision>
+      <id>2917193</id>
+      <parentid>2917173</parentid>
+      <timestamp>2013-01-01T00:06:25Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbeditentity */ Update of labels.</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2150026","labels":{"en":{"language":"en","value":"Vajubhai Vala"},"en-ca":{"language":"en-ca","value":"Vajubhai Vala"},"en-gb":{"language":"en-gb","value":"Vajubhai Vala"}},"descriptions":{"en":{"language":"en","value":"Cabinet Minister in the Bharatiya Janata Party ministry of Gujarat state of India"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"Vajubhai Vala","badges":[]}}}</text>
+      <sha1>2vo6qu1s7iyfks4ye75fxt6dqshp3tn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2150443</title>
+    <ns>0</ns>
+    <id>2075956</id>
+    <revision>
+      <id>2917760</id>
+      <parentid>2917707</parentid>
+      <timestamp>2013-01-01T00:15:47Z</timestamp>
+      <contributor>
+        <username>Hazard-SJ</username>
+        <id>5556</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Tetranchyroderma cirrophorum</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2150443","labels":{"nl":{"language":"nl","value":"Tetranchyroderma cirrophorum"},"en":{"language":"en","value":"Tetranchyroderma cirrophorum"}},"descriptions":[],"aliases":[],"claims":[],"sitelinks":{"nlwiki":{"site":"nlwiki","title":"Tetranchyroderma cirrophorum","badges":[]}}}</text>
+      <sha1>51r45bqqte1f5twla66ntoqahr6sovi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q805315</title>
+    <ns>0</ns>
+    <id>758222</id>
+    <revision>
+      <id>2919841</id>
+      <parentid>1374963</parentid>
+      <timestamp>2013-01-01T00:49:13Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>18305</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|eswiki */ Ruta_Estatal_de_California_202</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q805315","labels":{"en":{"language":"en","value":"California State Route 202"},"en-ca":{"language":"en-ca","value":"California State Route 202"},"en-gb":{"language":"en-gb","value":"California State Route 202"}},"descriptions":{"en":{"language":"en","value":"state highway in California"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"California State Route 202","badges":[]},"eswiki":{"site":"eswiki","title":"Ruta Estatal de California 202","badges":[]}}}</text>
+      <sha1>jiw80skroi8p71nt2zfhqu356phqdzu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q1744232</title>
+    <ns>0</ns>
+    <id>1677181</id>
+    <revision>
+      <id>2920399</id>
+      <parentid>2427017</parentid>
+      <timestamp>2013-01-01T00:58:21Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbeditentity */ Update of labels.</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1744232","labels":{"en":{"language":"en","value":"Amdavad ni Gufa"},"en-ca":{"language":"en-ca","value":"Amdavad ni Gufa"},"en-gb":{"language":"en-gb","value":"Amdavad ni Gufa"},"gu":{"language":"gu","value":"\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6\u0aa8\u0ac0 \u0a97\u0ac1\u0aab\u0abe"}},"descriptions":{"en":{"language":"en","value":"an underground art gallery in Ahmedabad, India"}},"aliases":{"en":[{"language":"en","value":"Hussain-Doshi ni Gufa"},{"language":"en","value":"Hussain-Doshi's Gufa"}]},"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"Amdavad ni Gufa","badges":[]},"guwiki":{"site":"guwiki","title":"\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6\u0aa8\u0ac0 \u0a97\u0ac1\u0aab\u0abe","badges":[]}}}</text>
+      <sha1>ov4zp3rntzktwij0im2lh9x7a3sbh6e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2152585</title>
+    <ns>0</ns>
+    <id>2078060</id>
+    <revision>
+      <id>2920457</id>
+      <timestamp>2013-01-01T00:59:22Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* special-create-item:2|en */ Jay Vasavada, ગુજરાતી ભાષાનાં જાણીતા યુવા લેખક</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"en":{"language":"en","value":"Jay Vasavada"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>o0v8x3xzaaiuatxro8rlx4pznbm5abn</sha1>
+    </revision>
+    <revision>
+      <id>2920475</id>
+      <parentid>2920457</parentid>
+      <timestamp>2013-01-01T00:59:35Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetlabel-remove:1|en */</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":[],"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>244uenzadrazjnw2bjqr2b6jvdsxin9</sha1>
+    </revision>
+    <revision>
+      <id>2920484</id>
+      <parentid>2920475</parentid>
+      <timestamp>2013-01-01T00:59:42Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbeditentity */ Update of labels.</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>cg7uojbzjm7xel55djayjifacan081z</sha1>
+    </revision>
+    <revision>
+      <id>2920499</id>
+      <parentid>2920484</parentid>
+      <timestamp>2013-01-01T00:59:57Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetsitelink-remove:1|guwiki */</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":[]}</text>
+      <sha1>96dg4jvye0xjmuszubd5mn1egm51v79</sha1>
+    </revision>
+    <revision>
+      <id>2920509</id>
+      <parentid>2920499</parentid>
+      <timestamp>2013-01-01T01:00:06Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ જય વસાવડા</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"},"en":{"language":"en","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":[]}</text>
+      <sha1>tnlgycmmjqf1g0fempop3qs2ead2w6g</sha1>
+    </revision>
+    <revision>
+      <id>2920521</id>
+      <parentid>2920509</parentid>
+      <timestamp>2013-01-01T01:00:17Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|guwiki */ જય વસાવડા</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"},"en":{"language":"en","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>mpqi7b7y6dps20o77ktrxzc691y8efm</sha1>
+    </revision>
+    <revision>
+      <id>2920558</id>
+      <parentid>2920521</parentid>
+      <timestamp>2013-01-01T01:00:59Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetlabel-remove:1|en */</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"en":{"language":"en","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>cg7uojbzjm7xel55djayjifacan081z</sha1>
+    </revision>
+    <revision>
+      <id>2920565</id>
+      <parentid>2920558</parentid>
+      <timestamp>2013-01-01T01:01:05Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetdescription-remove:1|en */</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":[],"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>3myx22x89orrxd0ls953g8m6ejie27x</sha1>
+    </revision>
+    <revision>
+      <id>2920583</id>
+      <parentid>2920565</parentid>
+      <timestamp>2013-01-01T01:01:20Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbeditentity */ [[MediaWiki_talk:Gadget-labelLister.js|labelLister]] [gu] description( ગુજરાતી ભાષાનાં જાણીતા યુવા લેખક )</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"}},"descriptions":{"gu":{"language":"gu","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>ox4r3xwxxqbsx4gmawmcibw2q4k6dxc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q805308</title>
+    <ns>0</ns>
+    <id>758215</id>
+    <revision>
+      <id>2920598</id>
+      <parentid>1374950</parentid>
+      <timestamp>2013-01-01T01:01:32Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>18305</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|eswiki */ Ruta Estatal de California 203</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q805308","labels":{"en":{"language":"en","value":"California State Route 203"},"en-ca":{"language":"en-ca","value":"California State Route 203"},"en-gb":{"language":"en-gb","value":"California State Route 203"}},"descriptions":{"en":{"language":"en","value":"state highway in California"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"California State Route 203","badges":[]},"eswiki":{"site":"eswiki","title":"Ruta Estatal de California 203","badges":[]}}}</text>
+      <sha1>azzje5kld73kwhrpyrc29ev8meslf9x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2152585</title>
+    <ns>0</ns>
+    <id>2078060</id>
+    <revision>
+      <id>2920609</id>
+      <parentid>2920583</parentid>
+      <timestamp>2013-01-01T01:01:44Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Jay Vasavada</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"},"en":{"language":"en","value":"Jay Vasavada"}},"descriptions":{"gu":{"language":"gu","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>8nghi76325ogqnfoypvgaja5uqj09jk</sha1>
+    </revision>
+    <revision>
+      <id>2920623</id>
+      <parentid>2920609</parentid>
+      <timestamp>2013-01-01T01:01:56Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ Gujarati writer</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2152585","labels":{"gu":{"language":"gu","value":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe"},"en":{"language":"en","value":"Jay Vasavada"}},"descriptions":{"gu":{"language":"gu","value":"\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe\u0aa8\u0abe\u0a82 \u0a9c\u0abe\u0aa3\u0ac0\u0aa4\u0abe \u0aaf\u0ac1\u0ab5\u0abe \u0ab2\u0ac7\u0a96\u0a95"},"en":{"language":"en","value":"Gujarati writer"}},"aliases":[],"claims":[],"sitelinks":{"guwiki":{"site":"guwiki","title":"\u0a9c\u0aaf \u0ab5\u0ab8\u0abe\u0ab5\u0aa1\u0abe","badges":[]}}}</text>
+      <sha1>tmmckzafoq6784woj2cf2v9x0iydq13</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q1536978</title>
+    <ns>0</ns>
+    <id>1473760</id>
+    <revision>
+      <id>2920698</id>
+      <parentid>2193413</parentid>
+      <timestamp>2013-01-01T01:03:12Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ a town in Gujarat state</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1536978","labels":{"fr":{"language":"fr","value":"Gondal"},"en":{"language":"en","value":"Gondal, India"},"zh":{"language":"zh","value":"\u6208\u6069\u8fbe\u5c14"},"vi":{"language":"vi","value":"Gondal"},"bpy":{"language":"bpy","value":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)"},"new":{"language":"new","value":"\u0917\u094b\u0923\u094d\u0921\u0932"},"ca":{"language":"ca","value":"Gondal"},"de":{"language":"de","value":"Gondal (Staat)"},"it":{"language":"it","value":"Gondal"},"es":{"language":"es","value":"Gondal"}},"descriptions":{"en":{"language":"en","value":"a town in Gujarat state"}},"aliases":[],"claims":[],"sitelinks":{"bpywiki":{"site":"bpywiki","title":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)","badges":[]},"viwiki":{"site":"viwiki","title":"Gondal","badges":[]},"frwiki":{"site":"frwiki","title":"Gondal","badges":[]},"enwiki":{"site":"enwiki","title":"Gondal, India","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u6208\u6069\u8fbe\u5c14","badges":[]},"itwiki":{"site":"itwiki","title":"Gondal","badges":[]},"newwiki":{"site":"newwiki","title":"\u0917\u094b\u0923\u094d\u0921\u0932","badges":[]},"cawiki":{"site":"cawiki","title":"Gondal","badges":[]},"dewiki":{"site":"dewiki","title":"Gondal (Staat)","badges":[]},"eswiki":{"site":"eswiki","title":"Gondal","badges":[]}}}</text>
+      <sha1>cfm8al12p68qtyzkdz72tr9lyzca0p5</sha1>
+    </revision>
+    <revision>
+      <id>2920726</id>
+      <parentid>2920698</parentid>
+      <timestamp>2013-01-01T01:03:38Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|guwiki */ ગોંડલ</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1536978","labels":{"fr":{"language":"fr","value":"Gondal"},"en":{"language":"en","value":"Gondal, India"},"zh":{"language":"zh","value":"\u6208\u6069\u8fbe\u5c14"},"vi":{"language":"vi","value":"Gondal"},"bpy":{"language":"bpy","value":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)"},"new":{"language":"new","value":"\u0917\u094b\u0923\u094d\u0921\u0932"},"ca":{"language":"ca","value":"Gondal"},"de":{"language":"de","value":"Gondal (Staat)"},"it":{"language":"it","value":"Gondal"},"es":{"language":"es","value":"Gondal"}},"descriptions":{"en":{"language":"en","value":"a town in Gujarat state"}},"aliases":[],"claims":[],"sitelinks":{"bpywiki":{"site":"bpywiki","title":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)","badges":[]},"viwiki":{"site":"viwiki","title":"Gondal","badges":[]},"frwiki":{"site":"frwiki","title":"Gondal","badges":[]},"enwiki":{"site":"enwiki","title":"Gondal, India","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u6208\u6069\u8fbe\u5c14","badges":[]},"itwiki":{"site":"itwiki","title":"Gondal","badges":[]},"newwiki":{"site":"newwiki","title":"\u0917\u094b\u0923\u094d\u0921\u0932","badges":[]},"cawiki":{"site":"cawiki","title":"Gondal","badges":[]},"dewiki":{"site":"dewiki","title":"Gondal (Staat)","badges":[]},"eswiki":{"site":"eswiki","title":"Gondal","badges":[]},"guwiki":{"site":"guwiki","title":"\u0a97\u0acb\u0a82\u0aa1\u0ab2","badges":[]}}}</text>
+      <sha1>2qxadhxnpdyn7ggtzri6h9j9zrltv9m</sha1>
+    </revision>
+    <revision>
+      <id>2920741</id>
+      <parentid>2920726</parentid>
+      <timestamp>2013-01-01T01:03:53Z</timestamp>
+      <contributor>
+        <username>Nizil Shah</username>
+        <id>9101</id>
+      </contributor>
+      <comment>/* wbeditentity */ Update of labels.</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1536978","labels":{"fr":{"language":"fr","value":"Gondal"},"en":{"language":"en","value":"Gondal, India"},"zh":{"language":"zh","value":"\u6208\u6069\u8fbe\u5c14"},"vi":{"language":"vi","value":"Gondal"},"bpy":{"language":"bpy","value":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)"},"new":{"language":"new","value":"\u0917\u094b\u0923\u094d\u0921\u0932"},"ca":{"language":"ca","value":"Gondal"},"de":{"language":"de","value":"Gondal (Staat)"},"it":{"language":"it","value":"Gondal"},"es":{"language":"es","value":"Gondal"},"de-ch":{"language":"de-ch","value":"Gondal"},"en-ca":{"language":"en-ca","value":"Gondal, India"},"en-gb":{"language":"en-gb","value":"Gondal, India"},"gu":{"language":"gu","value":"\u0a97\u0acb\u0a82\u0aa1\u0ab2"}},"descriptions":{"en":{"language":"en","value":"a town in Gujarat state"}},"aliases":[],"claims":[],"sitelinks":{"bpywiki":{"site":"bpywiki","title":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)","badges":[]},"viwiki":{"site":"viwiki","title":"Gondal","badges":[]},"frwiki":{"site":"frwiki","title":"Gondal","badges":[]},"enwiki":{"site":"enwiki","title":"Gondal, India","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u6208\u6069\u8fbe\u5c14","badges":[]},"itwiki":{"site":"itwiki","title":"Gondal","badges":[]},"newwiki":{"site":"newwiki","title":"\u0917\u094b\u0923\u094d\u0921\u0932","badges":[]},"cawiki":{"site":"cawiki","title":"Gondal","badges":[]},"dewiki":{"site":"dewiki","title":"Gondal (Staat)","badges":[]},"eswiki":{"site":"eswiki","title":"Gondal","badges":[]},"guwiki":{"site":"guwiki","title":"\u0a97\u0acb\u0a82\u0aa1\u0ab2","badges":[]}}}</text>
+      <sha1>cdem3rvf5p0tyfqfq6ywzv55hs5warb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2153074</title>
+    <ns>0</ns>
+    <id>2078543</id>
+    <revision>
+      <id>2921114</id>
+      <timestamp>2013-01-01T01:10:03Z</timestamp>
+      <contributor>
+        <username>Daniel Mietchen</username>
+        <id>24057</id>
+      </contributor>
+      <comment>/* special-create-item:2|en */ Eremias brenchleyi, species of wall lizard</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2153074","labels":{"en":{"language":"en","value":"Eremias brenchleyi"}},"descriptions":{"en":{"language":"en","value":"species of wall lizard"}},"aliases":[],"claims":[],"sitelinks":{"zhwiki":{"site":"zhwiki","title":"\u5c71\u5730\u9ebb\u8725","badges":[]}}}</text>
+      <sha1>98lb1moxjbmexcak1is4dwd6rudggv1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q805313</title>
+    <ns>0</ns>
+    <id>758220</id>
+    <revision>
+      <id>2921180</id>
+      <parentid>1374958</parentid>
+      <timestamp>2013-01-01T01:10:58Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>18305</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|eswiki */ Ruta Estatal de California 204</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q805313","labels":{"en":{"language":"en","value":"California State Route 204"},"en-ca":{"language":"en-ca","value":"California State Route 204"},"en-gb":{"language":"en-gb","value":"California State Route 204"}},"descriptions":{"en":{"language":"en","value":"state highway in California"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"California State Route 204","badges":[]},"eswiki":{"site":"eswiki","title":"Ruta Estatal de California 204","badges":[]}}}</text>
+      <sha1>b3x99nrek4xq97visrs923nnctoejft</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q990575</title>
+    <ns>0</ns>
+    <id>940168</id>
+    <revision>
+      <id>2921511</id>
+      <parentid>1591470</parentid>
+      <timestamp>2013-01-01T01:16:14Z</timestamp>
+      <contributor>
+        <username>Daniel Mietchen</username>
+        <id>24057</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ genus of wall lizards</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q990575","labels":{"ru":{"language":"ru","value":"\u042f\u0449\u0443\u0440\u043a\u0438"},"fr":{"language":"fr","value":"Eremias"},"en":{"language":"en","value":"Eremias"},"nl":{"language":"nl","value":"Eremias"},"pt":{"language":"pt","value":"Eremias"},"de":{"language":"de","value":"W\u00fcstenrenner"},"sv":{"language":"sv","value":"L\u00f6par\u00f6dlor"},"hu":{"language":"hu","value":"Eremias"},"uk":{"language":"uk","value":"\u042f\u0449\u0443\u0440\u043a\u0430"},"zh":{"language":"zh","value":"\u9ebb\u8725"},"pl":{"language":"pl","value":"Eremias"}},"descriptions":{"en":{"language":"en","value":"genus of wall lizards"}},"aliases":{"ru":[{"language":"ru","value":"Eremias"}],"uk":[{"language":"uk","value":"Eremias"},{"language":"uk","value":"\u042f\u0449\u0443\u0440\u043a\u0430 (\u0440\u0456\u0434)"}],"zh":[{"language":"zh","value":"\u9ebb\u8725\u5c5e"}],"de":[{"language":"de","value":"Eremias"}],"sv":[{"language":"sv","value":"Eremias"}]},"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Eremias","badges":[]},"nlwiki":{"site":"nlwiki","title":"Eremias","badges":[]},"ptwiki":{"site":"ptwiki","title":"Eremias","badges":[]},"dewiki":{"site":"dewiki","title":"W\u00fcstenrenner","badges":[]},"plwiki":{"site":"plwiki","title":"Eremias","badges":[]},"huwiki":{"site":"huwiki","title":"Eremias","badges":[]},"enwiki":{"site":"enwiki","title":"Eremias","badges":[]},"svwiki":{"site":"svwiki","title":"L\u00f6par\u00f6dlor","badges":[]},"ukwiki":{"site":"ukwiki","title":"\u042f\u0449\u0443\u0440\u043a\u0430","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u9ebb\u8725","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u042f\u0449\u0443\u0440\u043a\u0438","badges":[]}}}</text>
+      <sha1>7004ty75e9mfra2tztm54xfalpkc002</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q1536978</title>
+    <ns>0</ns>
+    <id>1473760</id>
+    <revision>
+      <id>2921754</id>
+      <parentid>2920741</parentid>
+      <timestamp>2013-01-01T01:20:20Z</timestamp>
+      <contributor>
+        <username>Yair rand</username>
+        <id>3490</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Gondal</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1536978","labels":{"fr":{"language":"fr","value":"Gondal"},"en":{"language":"en","value":"Gondal"},"zh":{"language":"zh","value":"\u6208\u6069\u8fbe\u5c14"},"vi":{"language":"vi","value":"Gondal"},"bpy":{"language":"bpy","value":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)"},"new":{"language":"new","value":"\u0917\u094b\u0923\u094d\u0921\u0932"},"ca":{"language":"ca","value":"Gondal"},"de":{"language":"de","value":"Gondal (Staat)"},"it":{"language":"it","value":"Gondal"},"es":{"language":"es","value":"Gondal"},"de-ch":{"language":"de-ch","value":"Gondal"},"en-ca":{"language":"en-ca","value":"Gondal, India"},"en-gb":{"language":"en-gb","value":"Gondal, India"},"gu":{"language":"gu","value":"\u0a97\u0acb\u0a82\u0aa1\u0ab2"}},"descriptions":{"en":{"language":"en","value":"a town in Gujarat state"}},"aliases":[],"claims":[],"sitelinks":{"bpywiki":{"site":"bpywiki","title":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)","badges":[]},"viwiki":{"site":"viwiki","title":"Gondal","badges":[]},"frwiki":{"site":"frwiki","title":"Gondal","badges":[]},"enwiki":{"site":"enwiki","title":"Gondal, India","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u6208\u6069\u8fbe\u5c14","badges":[]},"itwiki":{"site":"itwiki","title":"Gondal","badges":[]},"newwiki":{"site":"newwiki","title":"\u0917\u094b\u0923\u094d\u0921\u0932","badges":[]},"cawiki":{"site":"cawiki","title":"Gondal","badges":[]},"dewiki":{"site":"dewiki","title":"Gondal (Staat)","badges":[]},"eswiki":{"site":"eswiki","title":"Gondal","badges":[]},"guwiki":{"site":"guwiki","title":"\u0a97\u0acb\u0a82\u0aa1\u0ab2","badges":[]}}}</text>
+      <sha1>6tcu7gy2ixc6jqxth2ozlawrvjdumsn</sha1>
+    </revision>
+    <revision>
+      <id>2921773</id>
+      <parentid>2921754</parentid>
+      <timestamp>2013-01-01T01:20:36Z</timestamp>
+      <contributor>
+        <username>Yair rand</username>
+        <id>3490</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ town in Gujarat state</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q1536978","labels":{"fr":{"language":"fr","value":"Gondal"},"en":{"language":"en","value":"Gondal"},"zh":{"language":"zh","value":"\u6208\u6069\u8fbe\u5c14"},"vi":{"language":"vi","value":"Gondal"},"bpy":{"language":"bpy","value":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)"},"new":{"language":"new","value":"\u0917\u094b\u0923\u094d\u0921\u0932"},"ca":{"language":"ca","value":"Gondal"},"de":{"language":"de","value":"Gondal (Staat)"},"it":{"language":"it","value":"Gondal"},"es":{"language":"es","value":"Gondal"},"de-ch":{"language":"de-ch","value":"Gondal"},"en-ca":{"language":"en-ca","value":"Gondal, India"},"en-gb":{"language":"en-gb","value":"Gondal, India"},"gu":{"language":"gu","value":"\u0a97\u0acb\u0a82\u0aa1\u0ab2"}},"descriptions":{"en":{"language":"en","value":"town in Gujarat state"}},"aliases":[],"claims":[],"sitelinks":{"bpywiki":{"site":"bpywiki","title":"\u0997\u09cb\u09a8\u09a6\u09be\u09b2 (\u09b0\u09be\u099c\u0995\u09cb\u099f)","badges":[]},"viwiki":{"site":"viwiki","title":"Gondal","badges":[]},"frwiki":{"site":"frwiki","title":"Gondal","badges":[]},"enwiki":{"site":"enwiki","title":"Gondal, India","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u6208\u6069\u8fbe\u5c14","badges":[]},"itwiki":{"site":"itwiki","title":"Gondal","badges":[]},"newwiki":{"site":"newwiki","title":"\u0917\u094b\u0923\u094d\u0921\u0932","badges":[]},"cawiki":{"site":"cawiki","title":"Gondal","badges":[]},"dewiki":{"site":"dewiki","title":"Gondal (Staat)","badges":[]},"eswiki":{"site":"eswiki","title":"Gondal","badges":[]},"guwiki":{"site":"guwiki","title":"\u0a97\u0acb\u0a82\u0aa1\u0ab2","badges":[]}}}</text>
+      <sha1>27100poy0ycosuxp040rptbk7460l03</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q805257</title>
+    <ns>0</ns>
+    <id>758164</id>
+    <revision>
+      <id>2921895</id>
+      <parentid>1374893</parentid>
+      <timestamp>2013-01-01T01:22:32Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>18305</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|eswiki */ Ruta Estatal de California 207</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q805257","labels":{"en":{"language":"en","value":"California State Route 207"},"en-ca":{"language":"en-ca","value":"California State Route 207"},"en-gb":{"language":"en-gb","value":"California State Route 207"}},"descriptions":{"en":{"language":"en","value":"state highway in California"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"California State Route 207","badges":[]},"eswiki":{"site":"eswiki","title":"Ruta Estatal de California 207","badges":[]}}}</text>
+      <sha1>9jigi6ye8og76n61cn97f8lpwrjyamy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q602965</title>
+    <ns>0</ns>
+    <id>567587</id>
+    <revision>
+      <id>2922340</id>
+      <parentid>1155767</parentid>
+      <timestamp>2013-01-01T01:30:05Z</timestamp>
+      <contributor>
+        <username>Yair rand</username>
+        <id>3490</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Klondike</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q602965","labels":{"nl":{"language":"nl","value":"Klondike"},"da":{"language":"da","value":"Klondike"},"de":{"language":"de","value":"Klondike Fields"},"en":{"language":"en","value":"Klondike"},"es":{"language":"es","value":"Klondike"},"fi":{"language":"fi","value":"Klondike"},"hi":{"language":"hi","value":"\u0915\u094d\u0932\u094b\u0928\u0921\u093f\u0915\u0947"},"it":{"language":"it","value":"Klondike"},"ja":{"language":"ja","value":"\u30af\u30ed\u30f3\u30c0\u30a4\u30af"},"nn":{"language":"nn","value":"Klondike"},"pt":{"language":"pt","value":"Klondike"},"ro":{"language":"ro","value":"Klondike, Yukon"},"ru":{"language":"ru","value":"\u041a\u043b\u043e\u043d\u0434\u0430\u0439\u043a"},"sk":{"language":"sk","value":"Klondike"},"sv":{"language":"sv","value":"Klondike"},"uk":{"language":"uk","value":"\u041a\u043b\u043e\u043d\u0434\u0430\u0439\u043a"},"zh":{"language":"zh","value":"\u514b\u6717\u4ee3\u514b"}},"descriptions":[],"aliases":[],"claims":[],"sitelinks":{"nlwiki":{"site":"nlwiki","title":"Klondike","badges":[]},"dawiki":{"site":"dawiki","title":"Klondike","badges":[]},"dewiki":{"site":"dewiki","title":"Klondike Fields","badges":[]},"enwiki":{"site":"enwiki","title":"Klondike, Yukon","badges":[]},"eswiki":{"site":"eswiki","title":"Klondike","badges":[]},"fiwiki":{"site":"fiwiki","title":"Klondike","badges":[]},"hiwiki":{"site":"hiwiki","title":"\u0915\u094d\u0932\u094b\u0928\u0921\u093f\u0915\u0947","badges":[]},"itwiki":{"site":"itwiki","title":"Klondike","badges":[]},"jawiki":{"site":"jawiki","title":"\u30af\u30ed\u30f3\u30c0\u30a4\u30af (\u30e6\u30fc\u30b3\u30f3\u6e96\u5dde)","badges":[]},"nnwiki":{"site":"nnwiki","title":"Klondike","badges":[]},"ptwiki":{"site":"ptwiki","title":"Klondike","badges":[]},"rowiki":{"site":"rowiki","title":"Klondike, Yukon","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u041a\u043b\u043e\u043d\u0434\u0430\u0439\u043a (\u0440\u0435\u0433\u0438\u043e\u043d)","badges":[]},"skwiki":{"site":"skwiki","title":"Klondike (oblas\u0165)","badges":[]},"svwiki":{"site":"svwiki","title":"Klondike (region)","badges":[]},"ukwiki":{"site":"ukwiki","title":"\u041a\u043b\u043e\u043d\u0434\u0430\u0439\u043a","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u514b\u6717\u4ee3\u514b","badges":[]}}}</text>
+      <sha1>9hnufc1kxmsc8cr3qsskaujskpgw3w1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q623695</title>
+    <ns>0</ns>
+    <id>586642</id>
+    <revision>
+      <id>2922641</id>
+      <parentid>1324430</parentid>
+      <timestamp>2013-01-01T01:34:38Z</timestamp>
+      <contributor>
+        <username>Rschen7754</username>
+        <id>18305</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|eswiki */ Ruta Estatal de California 209</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q623695","labels":{"en":{"language":"en","value":"California State Route 209"},"en-ca":{"language":"en-ca","value":"California State Route 209"},"en-gb":{"language":"en-gb","value":"California State Route 209"},"de":{"language":"de","value":"California State Route 209"},"de-ch":{"language":"de-ch","value":"California State Route 209"}},"descriptions":{"en":{"language":"en","value":"former state highway in California"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"California State Route 209","badges":[]},"dewiki":{"site":"dewiki","title":"California State Route 209","badges":[]},"eswiki":{"site":"eswiki","title":"Ruta Estatal de California 209","badges":[]}}}</text>
+      <sha1>owdizktf6tvq7oe7kl70amnw5xu9xo8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q25453</title>
+    <ns>0</ns>
+    <id>28865</id>
+    <revision>
+      <id>2922801</id>
+      <parentid>2865041</parentid>
+      <timestamp>2013-01-01T01:37:40Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ The Geierwally</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q25453","labels":{"de":{"language":"de","value":"Die Geierwally"},"it":{"language":"it","value":"Die Geierwally"},"en":{"language":"en","value":"The Geierwally"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":{"de":[{"language":"de","value":"Geier-Wally"},{"language":"de","value":"Geyer-Wally"},{"language":"de","value":"Geier Wally"},{"language":"de","value":"Geierwally"}]},"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Die Geierwally","badges":[]},"itwiki":{"site":"itwiki","title":"Die Geierwally","badges":[]}}}</text>
+      <sha1>66l2prvz2mjs82lghjde0b83h9tcu9j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q31145</title>
+    <ns>0</ns>
+    <id>34095</id>
+    <revision>
+      <id>2922857</id>
+      <parentid>2852159</parentid>
+      <timestamp>2013-01-01T01:38:52Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ The beautiful adventure</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q31145","labels":{"de":{"language":"de","value":"Das sch\u00f6ne Abenteuer"},"it":{"language":"it","value":"Das sch\u00f6ne Abenteuer"},"en":{"language":"en","value":"The beautiful adventure"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Das sch\u00f6ne Abenteuer","badges":[]},"itwiki":{"site":"itwiki","title":"Das sch\u00f6ne Abenteuer","badges":[]}}}</text>
+      <sha1>0akd610jqigrd2r7qh5l28w29o68b98</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q33007</title>
+    <ns>0</ns>
+    <id>35852</id>
+    <revision>
+      <id>2922921</id>
+      <parentid>2850897</parentid>
+      <timestamp>2013-01-01T01:39:58Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Danny McBride</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q33007","labels":{"fr":{"language":"fr","value":"Danny McBride"},"de":{"language":"de","value":"Danny McBride"},"it":{"language":"it","value":"Danny McBride"},"en":{"language":"en","value":"Danny McBride"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Danny McBride (homonymie)","badges":[]},"dewiki":{"site":"dewiki","title":"Danny McBride","badges":[]},"itwiki":{"site":"itwiki","title":"Danny McBride","badges":[]}}}</text>
+      <sha1>b0fat81qdvnpjszunb4czpgi5kxfiqu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q43345</title>
+    <ns>0</ns>
+    <id>45553</id>
+    <revision>
+      <id>2922960</id>
+      <parentid>2835608</parentid>
+      <timestamp>2013-01-01T01:40:38Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Collor</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q43345","labels":{"de-formal":{"language":"de-formal","value":"Collor"},"de":{"language":"de","value":"Collor"},"pt-br":{"language":"pt-br","value":"Collor"},"pt":{"language":"pt","value":"Collor"},"en":{"language":"en","value":"Collor"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Collor","badges":[]},"ptwiki":{"site":"ptwiki","title":"Collor","badges":[]}}}</text>
+      <sha1>cbnqxoep4153awzwfy1x6oqngfz7qb4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q46526</title>
+    <ns>0</ns>
+    <id>48663</id>
+    <revision>
+      <id>2923009</id>
+      <parentid>2814988</parentid>
+      <timestamp>2013-01-01T01:41:24Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Cellarius</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q46526","labels":{"ru":{"language":"ru","value":"\u0426\u0435\u043b\u043b\u0430\u0440\u0438\u0443\u0441"},"fr":{"language":"fr","value":"Cellarius"},"nl":{"language":"nl","value":"Cellarius"},"de":{"language":"de","value":"Cellarius"},"it":{"language":"it","value":"Cellario"},"es":{"language":"es","value":"Cellarius"},"en":{"language":"en","value":"Cellarius"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":{"it":[{"language":"it","value":"Cellarius"}],"es":[{"language":"es","value":"Christophorus Cellarius"},{"language":"es","value":"Cristobal Cellarius"},{"language":"es","value":"Andreas Celarius"},{"language":"es","value":"Crist\u00f3bal Seller"},{"language":"es","value":"Cristobal Celarius"},{"language":"es","value":"Cristobal S\u00e9ller"},{"language":"es","value":"Cristobal Seller"},{"language":"es","value":"Celarius"}]},"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Cellarius","badges":[]},"nlwiki":{"site":"nlwiki","title":"Cellarius","badges":[]},"dewiki":{"site":"dewiki","title":"Cellarius (Begriffskl\u00e4rung)","badges":[]},"eswiki":{"site":"eswiki","title":"Cellarius","badges":[]},"itwiki":{"site":"itwiki","title":"Cellario","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u0426\u0435\u043b\u043b\u0430\u0440\u0438\u0443\u0441","badges":[]}}}</text>
+      <sha1>m2q3c5trummdzqkzqbcjiw8uhsyrc0k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q52248</title>
+    <ns>0</ns>
+    <id>54477</id>
+    <revision>
+      <id>2925248</id>
+      <parentid>2890671</parentid>
+      <timestamp>2013-01-01T02:20:19Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Einhausen</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q52248","labels":{"ru":{"language":"ru","value":"\u0410\u0439\u043d\u0445\u0430\u0443\u0437\u0435\u043d"},"eo":{"language":"eo","value":"Einhausen"},"nl":{"language":"nl","value":"Einhausen"},"sr":{"language":"sr","value":"\u0410\u0458\u043d\u0445\u0430\u0443\u0437\u0435\u043d"},"de":{"language":"de","value":"Einhausen"},"it":{"language":"it","value":"Einhausen"},"de-ch":{"language":"de-ch","value":"Einhausen"},"vo":{"language":"vo","value":"Einhausen"},"pl":{"language":"pl","value":"Einhausen"},"en":{"language":"en","value":"Einhausen"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rungsseite"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"eowiki":{"site":"eowiki","title":"Einhausen","badges":[]},"nlwiki":{"site":"nlwiki","title":"Einhausen","badges":[]},"dewiki":{"site":"dewiki","title":"Einhausen","badges":[]},"plwiki":{"site":"plwiki","title":"Einhausen","badges":[]},"vowiki":{"site":"vowiki","title":"Einhausen","badges":[]},"srwiki":{"site":"srwiki","title":"\u0410\u0458\u043d\u0445\u0430\u0443\u0437\u0435\u043d","badges":[]},"itwiki":{"site":"itwiki","title":"Einhausen","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u0410\u0439\u043d\u0445\u0430\u0443\u0437\u0435\u043d","badges":[]}}}</text>
+      <sha1>63ziwwsa327ke4x2skt5vwjrbbp86n1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q112924</title>
+    <ns>0</ns>
+    <id>115543</id>
+    <revision>
+      <id>2925310</id>
+      <parentid>2817513</parentid>
+      <timestamp>2013-01-01T02:21:29Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Chain Lakes</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q112924","labels":{"de":{"language":"de","value":"Chain Lakes"},"en":{"language":"en","value":"Chain Lakes"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Chain Lakes","badges":[]}}}</text>
+      <sha1>b6mgs6uusz5h8fu1zshv3u7sea8ozrv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q112965</title>
+    <ns>0</ns>
+    <id>115582</id>
+    <revision>
+      <id>2926606</id>
+      <parentid>2822794</parentid>
+      <timestamp>2013-01-01T02:42:32Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Cherokee Woods</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q112965","labels":{"de":{"language":"de","value":"Cherokee Woods"},"en":{"language":"en","value":"Cherokee Woods"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Cherokee Woods","badges":[]}}}</text>
+      <sha1>9e38w4swtjno0sxf6scihcyukfzfyuf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q114151</title>
+    <ns>0</ns>
+    <id>116739</id>
+    <revision>
+      <id>2926760</id>
+      <parentid>2857903</parentid>
+      <timestamp>2013-01-01T02:44:49Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Dellach</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q114151","labels":{"ru":{"language":"ru","value":"\u0414\u0435\u043b\u043b\u0430\u0445"},"de":{"language":"de","value":"Dellach"},"nl":{"language":"nl","value":"Dellach"},"en":{"language":"en","value":"Dellach"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":{"de":[{"language":"de","value":"T\u00f6llern"}]},"claims":[],"sitelinks":{"ruwiki":{"site":"ruwiki","title":"\u0414\u0435\u043b\u043b\u0430\u0445","badges":[]},"dewiki":{"site":"dewiki","title":"Dellach","badges":[]},"nlwiki":{"site":"nlwiki","title":"Dellach","badges":[]}}}</text>
+      <sha1>op7vdf0nkta9k0r5lpxvlln7x9ufcu9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q114693</title>
+    <ns>0</ns>
+    <id>117271</id>
+    <revision>
+      <id>2926882</id>
+      <parentid>2846933</parentid>
+      <timestamp>2013-01-01T02:46:28Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Curros</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q114693","labels":{"ru":{"language":"ru","value":"\u041a\u0443\u0440\u0440\u0443\u0448"},"fr":{"language":"fr","value":"Curros"},"nl":{"language":"nl","value":"Curros"},"pt":{"language":"pt","value":"Curros"},"de":{"language":"de","value":"Curros"},"gl":{"language":"gl","value":"Curros"},"en":{"language":"en","value":"Curros"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Curros","badges":[]},"nlwiki":{"site":"nlwiki","title":"Curros","badges":[]},"ptwiki":{"site":"ptwiki","title":"Curros","badges":[]},"dewiki":{"site":"dewiki","title":"Curros","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u041a\u0443\u0440\u0440\u0443\u0448","badges":[]},"glwiki":{"site":"glwiki","title":"Curros","badges":[]}}}</text>
+      <sha1>fh1v3bzo609jfgixjgzryn9hhzf5qih</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q114719</title>
+    <ns>0</ns>
+    <id>117297</id>
+    <revision>
+      <id>2926924</id>
+      <parentid>2874243</parentid>
+      <timestamp>2013-01-01T02:47:04Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Donnelly</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q114719","labels":{"ru":{"language":"ru","value":"\u0414\u043e\u043d\u043d\u0435\u043b\u043b\u0438"},"fr":{"language":"fr","value":"Donnelly"},"nl":{"language":"nl","value":"Donnelly"},"pt":{"language":"pt","value":"Donnelly"},"de":{"language":"de","value":"Donnelly"},"it":{"language":"it","value":"Donnelly"},"vo":{"language":"vo","value":"Donnelly"},"fi":{"language":"fi","value":"Donnelly"},"pl":{"language":"pl","value":"Donnelly"},"en":{"language":"en","value":"Donnelly"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"fiwiki":{"site":"fiwiki","title":"Donnelly","badges":[]},"frwiki":{"site":"frwiki","title":"Donnelly","badges":[]},"nlwiki":{"site":"nlwiki","title":"Donnelly","badges":[]},"ptwiki":{"site":"ptwiki","title":"Donnelly","badges":[]},"dewiki":{"site":"dewiki","title":"Donnelly","badges":[]},"plwiki":{"site":"plwiki","title":"Donnelly","badges":[]},"vowiki":{"site":"vowiki","title":"Donnelly","badges":[]},"itwiki":{"site":"itwiki","title":"Donnelly","badges":[]},"ruwiki":{"site":"ruwiki","title":"\u0414\u043e\u043d\u043d\u0435\u043b\u043b\u0438","badges":[]}}}</text>
+      <sha1>fbd3ofotz0v7i444w6riilhtxgjp2ks</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q114947</title>
+    <ns>0</ns>
+    <id>117523</id>
+    <revision>
+      <id>2926991</id>
+      <parentid>2824685</parentid>
+      <timestamp>2013-01-01T02:48:06Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Chinchilla Mouse</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q114947","labels":{"de":{"language":"de","value":"Chinchillamaus"},"en":{"language":"en","value":"Chinchilla Mouse"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Chinchillamaus","badges":[]}}}</text>
+      <sha1>0mwg1mskjys6j6mno2aaftyooekd0vk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q116339</title>
+    <ns>0</ns>
+    <id>118879</id>
+    <revision>
+      <id>2927591</id>
+      <parentid>2861250</parentid>
+      <timestamp>2013-01-01T02:56:55Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Desnos</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q116339","labels":{"fr":{"language":"fr","value":"Desnos"},"de":{"language":"de","value":"Desnos"},"en":{"language":"en","value":"Desnos"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Desnos","badges":[]},"dewiki":{"site":"dewiki","title":"Desnos","badges":[]}}}</text>
+      <sha1>bwx9vdkv3n4jbgmku31ahwh6qodcx9g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q116657</title>
+    <ns>0</ns>
+    <id>119194</id>
+    <revision>
+      <id>2927616</id>
+      <parentid>2839137</parentid>
+      <timestamp>2013-01-01T02:57:20Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Corbellini</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q116657","labels":{"de":{"language":"de","value":"Corbellini"},"it":{"language":"it","value":"Corbellini"},"en":{"language":"en","value":"Corbellini"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Corbellini","badges":[]},"itwiki":{"site":"itwiki","title":"Corbellini","badges":[]}}}</text>
+      <sha1>gj6l5wu1dry4uk3hjif01fn8te2gwct</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q116680</title>
+    <ns>0</ns>
+    <id>119217</id>
+    <revision>
+      <id>2927637</id>
+      <parentid>2822063</parentid>
+      <timestamp>2013-01-01T02:57:38Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Chavanne</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q116680","labels":{"de":{"language":"de","value":"Chavanne"},"scn":{"language":"scn","value":"Chavanne"},"nl":{"language":"nl","value":"Chavanne"},"it":{"language":"it","value":"Chavanne"},"pl":{"language":"pl","value":"Chavanne"},"en":{"language":"en","value":"Chavanne"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"nlwiki":{"site":"nlwiki","title":"Chavanne","badges":[]},"scnwiki":{"site":"scnwiki","title":"Chavanne","badges":[]},"dewiki":{"site":"dewiki","title":"Chavanne","badges":[]},"itwiki":{"site":"itwiki","title":"Chavanne","badges":[]},"plwiki":{"site":"plwiki","title":"Chavanne","badges":[]}}}</text>
+      <sha1>6a05de8bho1tkf9d5lkp9g2wezl27o6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q117850</title>
+    <ns>0</ns>
+    <id>120326</id>
+    <revision>
+      <id>2927752</id>
+      <parentid>2871017</parentid>
+      <timestamp>2013-01-01T02:59:18Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Doctrine</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q117850","labels":{"fr":{"language":"fr","value":"Doctrine"},"de":{"language":"de","value":"Doctrine"},"pl":{"language":"pl","value":"Doktryna"},"en":{"language":"en","value":"Doctrine"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"frwiki":{"site":"frwiki","title":"Doctrine","badges":[]},"dewiki":{"site":"dewiki","title":"Doctrine","badges":[]},"plwiki":{"site":"plwiki","title":"Doktryna","badges":[]}}}</text>
+      <sha1>6nd0vmkcru3zm3yz192s2233lz05i0u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q119016</title>
+    <ns>0</ns>
+    <id>121400</id>
+    <revision>
+      <id>2928229</id>
+      <parentid>2817801</parentid>
+      <timestamp>2013-01-01T03:07:26Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Khalturin</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q119016","labels":{"ru":{"language":"ru","value":"\u0425\u0430\u043b\u0442\u0443\u0440\u0438\u043d"},"de":{"language":"de","value":"Chalturin"},"en":{"language":"en","value":"Khalturin"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"ruwiki":{"site":"ruwiki","title":"\u0425\u0430\u043b\u0442\u0443\u0440\u0438\u043d","badges":[]},"dewiki":{"site":"dewiki","title":"Chalturin","badges":[]}}}</text>
+      <sha1>4h1irrhbf490g2grphkzy714jzgwbxh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q119025</title>
+    <ns>0</ns>
+    <id>121409</id>
+    <revision>
+      <id>2928258</id>
+      <parentid>2903706</parentid>
+      <timestamp>2013-01-01T03:07:52Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Estavayer</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q119025","labels":{"fr":{"language":"fr","value":"Estavayer"},"de":{"language":"de","value":"Estavayer"},"eo":{"language":"eo","value":"Estavayer"},"en":{"language":"en","value":"Estavayer"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"eowiki":{"site":"eowiki","title":"Estavayer","badges":[]},"dewiki":{"site":"dewiki","title":"Estavayer","badges":[]},"frwiki":{"site":"frwiki","title":"Estavayer","badges":[]}}}</text>
+      <sha1>5vrov91h017duhl0mkzcegpi315ao4j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q120379</title>
+    <ns>0</ns>
+    <id>122687</id>
+    <revision>
+      <id>2928305</id>
+      <parentid>2879858</parentid>
+      <timestamp>2013-01-01T03:08:34Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ DTZ</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q120379","labels":{"de":{"language":"de","value":"DTZ"},"it":{"language":"it","value":"DTZ"},"en":{"language":"en","value":"DTZ"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"DTZ","badges":[]},"itwiki":{"site":"itwiki","title":"DTZ","badges":[]}}}</text>
+      <sha1>0f5gdqgfn87flthp6pehyg3txb9os7u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q121557</title>
+    <ns>0</ns>
+    <id>123825</id>
+    <revision>
+      <id>2928351</id>
+      <parentid>2852098</parentid>
+      <timestamp>2013-01-01T03:09:12Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ The Jesus Video</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q121557","labels":{"nds":{"language":"nds","value":"Das Jesus Video"},"de":{"language":"de","value":"Das Jesus Video"},"en":{"language":"en","value":"The Jesus Video"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"ndswiki":{"site":"ndswiki","title":"Das Jesus Video","badges":[]},"dewiki":{"site":"dewiki","title":"Das Jesus Video","badges":[]}}}</text>
+      <sha1>11xmjwd9dhekn7m50icxouhxpda13vx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q2158701</title>
+    <ns>0</ns>
+    <id>2084074</id>
+    <revision>
+      <id>2928420</id>
+      <timestamp>2013-01-01T03:10:27Z</timestamp>
+      <contributor>
+        <username>Daniel Mietchen</username>
+        <id>24057</id>
+      </contributor>
+      <comment>/* special-create-item:2|en */ Erichsonia, genus of cerambycid beetles</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2158701","labels":{"en":{"language":"en","value":"Erichsonia"}},"descriptions":{"en":{"language":"en","value":"genus of cerambycid beetles"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"Erichsonia","badges":[]}}}</text>
+      <sha1>27vvnpgq7qpipbhidxj6oe33uil0kjt</sha1>
+    </revision>
+    <revision>
+      <id>2928436</id>
+      <parentid>2928420</parentid>
+      <timestamp>2013-01-01T03:10:42Z</timestamp>
+      <contributor>
+        <username>Daniel Mietchen</username>
+        <id>24057</id>
+      </contributor>
+      <comment>/* wbeditentity */ Update of labels.</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q2158701","labels":{"en":{"language":"en","value":"Erichsonia"},"en-ca":{"language":"en-ca","value":"Erichsonia"},"en-gb":{"language":"en-gb","value":"Erichsonia"}},"descriptions":{"en":{"language":"en","value":"genus of cerambycid beetles"}},"aliases":[],"claims":[],"sitelinks":{"enwiki":{"site":"enwiki","title":"Erichsonia","badges":[]}}}</text>
+      <sha1>smrh5qs4kdu7ry8bwh8jv1k00agwual</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q265867</title>
+    <ns>0</ns>
+    <id>257673</id>
+    <revision>
+      <id>2928519</id>
+      <parentid>936483</parentid>
+      <timestamp>2013-01-01T03:11:56Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ given name</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q265867","labels":{"de":{"language":"de","value":"Darius"},"en":{"language":"en","value":"Darius"},"pl":{"language":"pl","value":"Dariusz"}},"descriptions":{"en":{"language":"en","value":"given name"},"it":{"language":"it","value":"pagina di disambiguazione"}},"aliases":[],"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Darius","badges":[]},"enwiki":{"site":"enwiki","title":"Darius","badges":[]},"plwiki":{"site":"plwiki","title":"Dariusz","badges":[]}}}</text>
+      <sha1>bn91ysh550lesmq3ubrgjp3trq3duxm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q121627</title>
+    <ns>0</ns>
+    <id>123893</id>
+    <revision>
+      <id>2928525</id>
+      <parentid>2851338</parentid>
+      <timestamp>2013-01-01T03:12:01Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Darius</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q121627","labels":{"el":{"language":"el","value":"\u0394\u03b1\u03c1\u03b5\u03af\u03bf\u03c2"},"eo":{"language":"eo","value":"Dario"},"zh":{"language":"zh","value":"\u5927\u6d41\u58eb"},"ca":{"language":"ca","value":"Darios"},"cy":{"language":"cy","value":"Darius"},"et":{"language":"et","value":"Dareios"},"als":{"language":"als","value":"Dareius"},"nl":{"language":"nl","value":"Darius"},"pt":{"language":"pt","value":"Dario"},"la":{"language":"la","value":"Darius"},"tr":{"language":"tr","value":"Darius"},"lt":{"language":"lt","value":"Darius"},"tl":{"language":"tl","value":"Darius"},"fr":{"language":"fr","value":"Darius"},"bg":{"language":"bg","value":"\u0414\u0430\u0440\u0438\u0439"},"de":{"language":"de","value":"Dareios"},"fi":{"language":"fi","value":"Dareios"},"ja":{"language":"ja","value":"\u30c0\u30ec\u30a4\u30aa\u30b9"},"he":{"language":"he","value":"\u05d3\u05e8\u05d9\u05d5\u05d5\u05e9"},"sv":{"language":"sv","value":"Darius"},"uk":{"language":"uk","value":"\u0414\u0430\u0440\u0456\u0439"},"nds":{"language":"nds","value":"Dareios"},"en":{"language":"en","value":"Darius"}},"descriptions":{"ru":{"language":"ru","value":"\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439"},"fr":{"language":"fr","value":"page d'homonymie"},"en":{"language":"en","value":"Wikipedia disambiguation page"},"pt":{"language":"pt","value":"p\u00e1gina de desambigua\u00e7\u00e3o"},"ca":{"language":"ca","value":"P\u00e0gina de desambiguaci\u00f3"},"de":{"language":"de","value":"Begriffskl\u00e4rung"},"it":{"language":"it","value":"pagina di disambiguazione"},"id":{"language":"id","value":"Halaman disambiguasi"},"fa":{"language":"fa","value":"\u0635\u0641\u062d\u0627\u062a \u0627\u0628\u0647\u0627\u0645 \u0632\u062f\u0627\u06cc\u06cc \u0648\u06cc\u06a9\u06cc \u067e\u062f\u06cc\u0627"},"ms":{"language":"ms","value":"Laman nyahkekaburan"},"fi":{"language":"fi","value":"t\u00e4smennyssivu"},"nb":{"language":"nb","value":"Wikipedia-pekerside"},"es":{"language":"es","value":"p\u00e1gina de desambiguaci\u00f3n"}},"aliases":[],"claims":[],"sitelinks":{"fiwiki":{"site":"fiwiki","title":"Dareios","badges":[]},"eowiki":{"site":"eowiki","title":"Dario","badges":[]},"alswiki":{"site":"alswiki","title":"Dareius","badges":[]},"tlwiki":{"site":"tlwiki","title":"Darius","badges":[]},"ukwiki":{"site":"ukwiki","title":"\u0414\u0430\u0440\u0456\u0439","badges":[]},"elwiki":{"site":"elwiki","title":"\u0394\u03b1\u03c1\u03b5\u03af\u03bf\u03c2","badges":[]},"jawiki":{"site":"jawiki","title":"\u30c0\u30ec\u30a4\u30aa\u30b9","badges":[]},"ptwiki":{"site":"ptwiki","title":"Dario","badges":[]},"etwiki":{"site":"etwiki","title":"Dareios","badges":[]},"frwiki":{"site":"frwiki","title":"Darius","badges":[]},"zhwiki":{"site":"zhwiki","title":"\u5927\u6d41\u58eb","badges":[]},"svwiki":{"site":"svwiki","title":"Darius","badges":[]},"cawiki":{"site":"cawiki","title":"Darios","badges":[]},"nlwiki":{"site":"nlwiki","title":"Darius","badges":[]},"dewiki":{"site":"dewiki","title":"Dareios","badges":[]},"ltwiki":{"site":"ltwiki","title":"Darius","badges":[]},"cywiki":{"site":"cywiki","title":"Darius","badges":[]},"bgwiki":{"site":"bgwiki","title":"\u0414\u0430\u0440\u0438\u0439","badges":[]},"lawiki":{"site":"lawiki","title":"Darius","badges":[]},"ndswiki":{"site":"ndswiki","title":"Dareios","badges":[]},"trwiki":{"site":"trwiki","title":"Darius","badges":[]},"hewiki":{"site":"hewiki","title":"\u05d3\u05e8\u05d9\u05d5\u05d5\u05e9","badges":[]}}}</text>
+      <sha1>9k46d2ymfpmncumdyni7qnep8on69hl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q121628</title>
+    <ns>0</ns>
+    <id>123894</id>
+    <revision>
+      <id>2928567</id>
+      <parentid>592727</parentid>
+      <timestamp>2013-01-01T03:12:48Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|en */ Werner Düggelin</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q121628","labels":{"de":{"language":"de","value":"Werner D\u00fcggelin"},"gsw":{"language":"gsw","value":"Werner D\u00fcggelin"},"en":{"language":"en","value":"Werner D\u00fcggelin"}},"descriptions":[],"aliases":{"de":[{"language":"de","value":"D\u00fcggelin"}]},"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Werner D\u00fcggelin","badges":[]},"alswiki":{"site":"alswiki","title":"Werner D\u00fcggelin","badges":[]}}}</text>
+      <sha1>oaaed9y1uyicxubvzcpg9z9qdqvy2js</sha1>
+    </revision>
+    <revision>
+      <id>2928570</id>
+      <parentid>2928567</parentid>
+      <timestamp>2013-01-01T03:12:51Z</timestamp>
+      <contributor>
+        <username>Tbennert</username>
+        <id>40958</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|en */ Swiss theater director</comment>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+      <text xml:space="preserve">{"type":"item","id":"Q121628","labels":{"de":{"language":"de","value":"Werner D\u00fcggelin"},"gsw":{"language":"gsw","value":"Werner D\u00fcggelin"},"en":{"language":"en","value":"Werner D\u00fcggelin"}},"descriptions":{"en":{"language":"en","value":"Swiss theater director"}},"aliases":{"de":[{"language":"de","value":"D\u00fcggelin"}]},"claims":[],"sitelinks":{"dewiki":{"site":"dewiki","title":"Werner D\u00fcggelin","badges":[]},"alswiki":{"site":"alswiki","title":"Werner D\u00fcggelin","badges":[]}}}</text>
+      <sha1>c0l2ttxm7b2bv7ihkndspkuxkkoftd2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q121920</title>
+    <ns>0</ns>
+    <id>124178</id>
