@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -76,8 +77,9 @@ public class TagDownloaderProcessor implements RevisionProcessor {
 	
 	private void attachInformation(Revision revision, DbRevision dbRevision){		
 		if(dbRevision != null){		
-			revision.setDownloadedSha1(dbRevision.getSha1());
+			revision.setDownloadedSha1(DigestUtils.sha1Hex(revision.getText()));
 			revision.setDownloadedTags(dbRevision.getTagNames());
+			revision.setRevisionGroupId(dbRevision.getGroupId());
 		}
 	}
 

@@ -35,6 +35,7 @@ public enum CONTENT_TYPE {
 			case "wbsetaliases":
 			case "wbsetdescription":
 			case "wbsetlabel":
+			case "wbsetlabeldescriptionaliases":
 				result= CONTENT_TYPE.TEXT;
 				break;
 			case "wbeditentity":

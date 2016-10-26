@@ -47,10 +47,10 @@ public class CsvFeatureWriter implements RevisionProcessor{
 			OutputStreamWriter writer =
 					new OutputStreamWriter(
 				    getPipedOutputStreamStream(
-					new BZip2CompressorOutputStream(
+			//		new BZip2CompressorOutputStream(
 					new BufferedOutputStream(
-					new FileOutputStream(featureFile)),
-					BZIP2_BLOCKSIZE)),
+					new FileOutputStream(featureFile))
+				/*	BZIP2_BLOCKSIZE)*/),
 				    "utf-8");
 	
 			String[] header = new String[features.size()];
@@ -83,7 +83,6 @@ public class CsvFeatureWriter implements RevisionProcessor{
 				else{
 					writeString = featureValue.toString();
 				}
-				
 				record.add(writeString);
 			}			
 
@@ -98,6 +97,8 @@ public class CsvFeatureWriter implements RevisionProcessor{
 	@Override
 	public void finishRevisionProcessing() {
 		try {
+			logger.debug("Closing csvPrinter............................");
+			csvPrinter.flush();
 			csvPrinter.close();
 		} catch (IOException e) {
 			logger.error("", e);

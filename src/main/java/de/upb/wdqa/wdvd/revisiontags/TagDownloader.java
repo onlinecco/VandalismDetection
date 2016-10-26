@@ -33,7 +33,7 @@ public class TagDownloader {
 	
 	static DbTagFactory tagFactory = new DbTagFactory();
 	
-	static long MAX_REVISION_ID = 180000000L;
+	static long MAX_REVISION_ID = 310000000L;
 	
 	static TagDownloaderDataStore dataStore = new TagDownloaderMemoryDataStore(tagFactory, MAX_REVISION_ID);
 
@@ -75,19 +75,28 @@ public class TagDownloader {
 	 */
 	private static void parseRecord(CSVRecord record){
 		long revisionId = Long.parseLong(record.get(0)); // revision id
-		String sha1Base16 = record.get(1); // sha1
+		long groupId = Long.parseLong(record.get(1)); // revision id
+		//String sha1Base16 = record.get(1); // sha1
 		
 		//record.get(2); // size
-		
+		//logger.info(record.get(1)+","+record.get(2)+","+"***********************************");
 		Set<DbTag> tags = new HashSet<DbTag>();
-		for (int i = 3; i < record.size(); i++){
-			String tagName = record.get(i);
-			tags.add(tagFactory.getTag(tagName));
-			tagDistribution.addValue(tagName);
+		String tagName = record.get(8);
+		if(!tagName.equals("")){
+
+			String[] tagList = tagName.split(",");
+			for (int i = 0; i < tagList.length; i++){
+				/*
+				if(i>0){
+				logger.info(i+","+tagList[i]+"***********************************"+tagList[i-1]);
+				}*/
+				tags.add(tagFactory.getTag(tagList[i]));
+				tagDistribution.addValue(tagList[i]);
+			}
+
 		}
-		
 		try{
-			dataStore.putRevision(new DbRevisionImpl(revisionId, SHA1Converter.base16to36(sha1Base16), tags));
+			dataStore.putRevision(new DbRevisionImpl(revisionId,groupId, "", tags));
 		}
 		catch(Exception e){
 			logger.error("", e);

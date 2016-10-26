@@ -115,6 +115,7 @@ public class ActionStatisticsProcessor implements RevisionProcessor {
 					csvWriter.printRecord(month, action, value);					
 				}
 			}
+			csvWriter.flush();
 			csvWriter.close();
 		} catch (IOException e) {
 			logger.error("", e);

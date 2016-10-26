@@ -45,8 +45,7 @@ public class CorpusLabelReader {
 	
 	final int BUFFER_SIZE = 256 * 1024;
 
-	private static final String[] FILE_HEADER = { "revision_id",
-		"revision_group_id", "rollback_reverted", "undo_restore_reverted" };
+	private static final String[] FILE_HEADER = { "REVISION_ID","ROLLBACK_REVERTED","UNDO_RESTORE_REVERTED" };
 
 	public CorpusLabelReader(InputStream labelsStream) {
 		this.labelsStream = labelsStream;
@@ -92,9 +91,10 @@ public class CorpusLabelReader {
 			label = new CorpusLabel();
 
 			label.setRevisionId(Long.parseLong(csvRecord.get(0)));
-			label.setGroupId(Long.parseLong(csvRecord.get(1)));
-			label.setRollbackReverted(Boolean.parseBoolean(csvRecord.get(2)));
-			label.setUndoRestoreReverted(Boolean.parseBoolean(csvRecord.get(3)));
+			//label.setGroupId(Long.parseLong(csvRecord.get(1)));
+			label.setRollbackReverted(csvRecord.get(1).equals("T"));
+			
+			label.setUndoRestoreReverted(csvRecord.get(2).equals("T"));
 		}
 
 		return label;

@@ -3,6 +3,9 @@ package de.upb.wdqa.wdvd.revisiontags;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import de.upb.wdqa.wdvd.db.implementation.DbRevisionImpl;
 import de.upb.wdqa.wdvd.db.implementation.DbTagFactory;
 import de.upb.wdqa.wdvd.db.interfaces.DbRevision;
@@ -12,7 +15,7 @@ public class TagDownloaderMemoryDataStore implements TagDownloaderDataStore {
 	
 	// Stores all the data from TagDownloader. The maximal size of an byte array in Java is 2GB. Hence, we use a third party library to circumvent this limitation.
 	static byte[][] bigByteArray;
-	
+	static final Logger logger = LoggerFactory.getLogger(TagDownloader.class);
 	DbTagFactory tagFactory;
 	long maxRevisionId;
 	
