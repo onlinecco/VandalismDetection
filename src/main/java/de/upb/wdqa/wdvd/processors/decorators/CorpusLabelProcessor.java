@@ -67,7 +67,9 @@ public class CorpusLabelProcessor implements RevisionProcessor {
 	@Override
 	public void processRevision(Revision revision) {
 		CorpusLabel label = labelReader.getNextLabel();
-	
+		while(label.getRevisionId() <revision.getRevisionId()){
+			label = labelReader.getNextLabel();
+		}
 
 
 		if (revision.getRevisionId() != label.getRevisionId()) {
@@ -76,7 +78,7 @@ public class CorpusLabelProcessor implements RevisionProcessor {
 		
 		revision.setRollbackReverted(label.wasRollbackReverted());
 		revision.setUndoRestoreReverted(label.wasUndoRestoreReverted());
-		revision.setRevisionGroupId(label.getGroupId());
+		//revision.setRevisionGroupId(label.getGroupId());
 
 		numberOfRevisions++;
 

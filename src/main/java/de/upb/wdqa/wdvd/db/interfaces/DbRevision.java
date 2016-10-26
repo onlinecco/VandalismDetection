@@ -11,4 +11,6 @@ public interface DbRevision {
 	Set<DbTag> getTags();
 	
 	List<String> getTagNames();
+	
+	long getGroupId();
 }

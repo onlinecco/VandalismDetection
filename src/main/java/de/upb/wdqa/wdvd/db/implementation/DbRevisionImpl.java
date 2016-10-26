@@ -14,19 +14,31 @@ public class DbRevisionImpl implements DbRevision {
 	long revisionId;
 	String sha1;
 	Set<DbTag> tags;
+	long groupId;
 	
-	public DbRevisionImpl(long revisionId, String sha1, Set<DbTag> tags) {
+	public DbRevisionImpl(long revisionId,String sha1, Set<DbTag> tags) {
 		super();
 		this.revisionId = revisionId;
 		this.sha1 = sha1;
 		this.tags = tags;
+	}
+	
+	public DbRevisionImpl(long revisionId,long groupId,String sha1, Set<DbTag> tags) {
+		super();
+		this.revisionId = revisionId;
+		this.sha1 = sha1;
+		this.tags = tags;
+		this.groupId = groupId;
 	}
 
 	public DbRevisionImpl() {
 
 	}
 
-
+	@Override
+	public long getGroupId(){
+		return groupId;
+	}
 	@Override
 	public long getRevisionId() {
 		return revisionId;
