@@ -1,0 +1,102 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.9/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.9/ http://www.mediawiki.org/xml/export-0.9.xsd" version="0.9" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikidata</sitename>
+    <dbname>wikidatawiki</dbname>
+    <base>http://www.wikidata.org/wiki/Wikidata:Main_Page</base>
+    <generator>wdqa-0.0.1-SNAPSHOT-020-201506181659-jar-with-dependencies.jar</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="0" case="first-letter"/>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Q15</title>
+    <ns>0</ns>
+    <id>111</id>
+    <revision>
+      <id>16</id>
+      <timestamp>2012-10-29T17:03:21Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>Created page with "A continent"</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa"},"description":{"en":"A continent"},"aliases":[],"links":[],"entity":"q15"}</text>
+      <sha1>hmfipnvrbxi8qvtd15gu35iqprqbdnb</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+    <revision>
+      <id>20</id>
+      <parentid>16</parentid>
+      <timestamp>2012-10-29T17:10:49Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>/* wbsetlabel-set:1|de */ Afrika</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa","de":"Afrika"},"description":{"en":"A continent"},"aliases":[],"links":[],"entity":"q15"}</text>
+      <sha1>a0f3zqelhf49i98e46wgzwoine3x7jp</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+    <revision>
+      <id>21</id>
+      <parentid>20</parentid>
+      <timestamp>2012-10-29T17:10:53Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>/* wbsetdescription-set:1|de */ Ein Kontinent</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa","de":"Afrika"},"description":{"en":"A continent","de":"Ein Kontinent"},"aliases":[],"links":[],"entity":"q15"}</text>
+      <sha1>qzm5q0yalixdh2e3x7vwvrctr6e2gre</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+    <revision>
+      <id>35</id>
+      <parentid>21</parentid>
+      <timestamp>2012-10-29T17:33:19Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|enwiki */ Africa</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa","de":"Afrika"},"description":{"en":"A continent","de":"Ein Kontinent"},"aliases":[],"links":{"enwiki":"Africa"},"entity":"q15"}</text>
+      <sha1>1tsxckkd1sb1mmb5wm1unnj23yzvk8j</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+    <revision>
+      <id>36</id>
+      <parentid>35</parentid>
+      <timestamp>2012-10-29T17:33:28Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|dewiki */ Afrika</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa","de":"Afrika"},"description":{"en":"A continent","de":"Ein Kontinent"},"aliases":[],"links":{"enwiki":"Africa","dewiki":"Afrika"},"entity":"q15"}</text>
+      <sha1>dytl1rltn9czjsxmroczpjc6c5etd3e</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+    <revision>
+      <id>37</id>
+      <parentid>36</parentid>
+      <timestamp>2012-10-29T17:33:36Z</timestamp>
+      <contributor>
+        <username>Denny</username>
+        <id>713</id>
+      </contributor>
+      <comment>/* wbsetsitelink-set:1|hrwiki */ Afrika</comment>
+      <text xml:space="preserve">{"label":{"en":"Africa","de":"Afrika"},"description":{"en":"A continent","de":"Ein Kontinent"},"aliases":[],"links":{"enwiki":"Africa","dewiki":"Afrika","hrwiki":"Afrika"},"entity":"q15"}</text>
+      <sha1>njxgcwprggtu4z9cf4ge8byo26ztzei</sha1>
+      <model>wikibase-item</model>
+      <format>application/json</format>
+    </revision>
+  </page>
+</mediawiki>
+
+
