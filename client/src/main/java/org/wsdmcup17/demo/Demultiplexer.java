@@ -25,16 +25,16 @@ public class Demultiplexer implements Runnable {
 		LOG_MSG_END_OF_ITEM_STREAM = "End of item stream.",
 		LOG_MSG_MISSING_DATA_AFTER_METADATA = "Missing data after metadata %s";
 	
-	private BlockingQueue<CSVRecord> metadataQueue;
+	private OutputStream metadataOutputStream;
 	private DataInputStream dataStream;
-	private PipedOutputStream revisionOutputStream;
+	private OutputStream revisionOutputStream;
 	
 	public Demultiplexer(
-		DataInputStream inputStream, BlockingQueue<CSVRecord> metaQueue,
-		PipedOutputStream revisionOutputStream
+		DataInputStream inputStream, OutputStream metaQueue,
+		OutputStream revisionOutputStream
 	) {
 		this.dataStream = inputStream;
-		this.metadataQueue = metaQueue;
+		this.metadataOutputStream = metaQueue;
 		this.revisionOutputStream = revisionOutputStream;
 	}
 	
@@ -52,19 +52,18 @@ public class Demultiplexer implements Runnable {
 		try {
 			while (true) {
 				// Read metadata from stream and queue it.
-				CSVRecord metadata;
 				byte[] bytes = readNextItem(dataStream);
 				if (bytes == null) { // end of stream
 					break;
 				}
 
-				metadata = MetadataParser.deserialize(bytes);
-				metadataQueue.put(metadata);
+				metadataOutputStream.write(bytes);
+				metadataOutputStream.flush();
 				
 				// Read corresponding revision from stream and forward it.
 				bytes = readNextItem(dataStream);
 				if (bytes == null) { // end of stream
-					logMissingDataAfterMetadata(metadata);
+					LOG.error("shabi");
 					break;
 				}
 				else {
@@ -92,7 +91,4 @@ public class Demultiplexer implements Runnable {
 		}
 	}
 	
-	private void logMissingDataAfterMetadata(CSVRecord metadata) {
-		LOG.error(String.format(LOG_MSG_MISSING_DATA_AFTER_METADATA, metadata));
-	}
 }
