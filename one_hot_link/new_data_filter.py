@@ -1,8 +1,8 @@
 import pandas as pd
 
-featureFile = './test.csv'
+featureFile = './FEATURES_2016_03'
 tmpFile = './tmp.csv'
-outFile = './out.csv'
+outFile = './big.out.csv'
 keyFile = './key'
 #STEP1 clean the attribute we do not need
 df = pd.read_csv(featureFile)
@@ -193,4 +193,30 @@ df.drop('groupId',1,inplace=True)
 df.insert(0,'rollbackReverted_val', df['rollbackReverted'])
 df.drop('rollbackReverted',1,inplace=True)
 df.drop('itemValue',1,inplace=True)
+
 df.to_csv(outFile, index=False)
+
+
+f = open(outFile)
+out = open('./newfile.csv','w')
+
+title = f.readline().strip()
+out.write(title+'\n')
+line = f.readline()
+while len(line) > 1:
+	arr = line.strip().split(',')
+	for i in range(len(arr)):
+		try:
+			float(arr[i])
+		except:
+			arr[i] = 0
+		if i == 0:
+			out.write(str(arr[i]))
+		else:
+			out.write(','+str(arr[i]))
+	out.write('\n')
+	line = f.readline()
+out.close()
+f.close()
+
+
