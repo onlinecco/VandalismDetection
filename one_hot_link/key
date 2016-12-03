@@ -1,0 +1,106 @@
+contentType
+	contentTypeTEXT
+	contentTypeMISC
+	contentTypeSITELINK
+	contentTypeSTATEMENT
+	contentTypeEmpty
+revisionAction
+	revisionActionrestore
+	revisionActionclientsitelink
+	revisionActionwbsetqualifier
+	revisionActionwbsetclaimvalue
+	revisionActionemptyComment
+	revisionActionwbcreateclaim
+	revisionActionwbremoveclaims
+	revisionActionwbsetclaim
+	revisionActionunknownCommentType
+	revisionActionwblinktitles
+	revisionActionwbsetdescription
+	revisionActionwbmergeitems
+	revisionActionwbremovereferences
+	revisionActionRemoved description
+	revisionActionrollback
+	revisionActionwbsetreference
+	revisionActionwbsetaliases
+	revisionActionremovePageProtection
+	revisionActionundo
+	revisionActionwbsetsitelink
+	revisionActionwbremovequalifiers
+	revisionActionsetPageProtection
+	revisionActionwbeditentity
+	revisionActionwbsetlabel
+	revisionActionchangePageProtection
+	revisionActionwbsetlabeldescriptionaliases
+	revisionActionEmpty
+revisionPrevAction
+	revisionPrevActionrestore
+	revisionPrevActionclientsitelink
+	revisionPrevActionwbsetqualifier
+	revisionPrevActionwbsetclaimvalue
+	revisionPrevActionemptyComment
+	revisionPrevActionwbcreateclaim
+	revisionPrevActionwbremoveclaims
+	revisionPrevActionwbsetclaim
+	revisionPrevActionunknownCommentType
+	revisionPrevActionwbsetdescription
+	revisionPrevActionwbmergeitems
+	revisionPrevActionwbremovereferences
+	revisionPrevActionrollback
+	revisionPrevActionwbsetreference
+	revisionPrevActionwbsetaliases
+	revisionPrevActionundo
+	revisionPrevActionwbsetsitelink
+	revisionPrevActionwbremovequalifiers
+	revisionPrevActionwbeditentity
+	revisionPrevActionwbsetlabel
+	revisionPrevActionwbsetlabeldescriptionaliases
+	revisionPrevActionEmpty
+revisionSubaction
+	revisionSubactionset
+	revisionSubactionfrom
+	revisionSubactioncreate
+	revisionSubactionupdate
+	revisionSubactionremove
+	revisionSubactionto
+	revisionSubactionadd
+	revisionSubactionadd-both
+	revisionSubactionconnect
+	revisionSubactionoverride
+	revisionSubactionset-both
+	revisionSubactionset-badges
+	revisionSubactionEmpty
+revisionTag
+	revisionTagOAuth CID: 336
+	revisionTagpossible vandalism
+	revisionTagOAuth CID: 408
+	revisionTagadding potentially mistaken label/description/alias
+	revisionTagUnexpected value for IMDb identifier
+	revisionTagself-referencing
+	revisionTagpossible test edit
+	revisionTagnew editor removing sitelink
+	revisionTagadding latin script language description in non-latin script
+	revisionTagnew editor changing statement
+	revisionTagURL in item
+	revisionTagUnexpected value for gender
+	revisionTagWE-Framework gadget
+	revisionTagdescription ending with punctuation
+	revisionTagwikisyntax
+	revisionTagnew editor removing statement
+	revisionTagemoji
+	revisionTagpossible non-constructive description
+	revisionTagadding language as label/description/alias
+	revisionTagadding non-latin script language description in latin script
+	revisionTagOAuth CID: 93
+	revisionTagOAuth CID: 323
+	revisionTagUnexpected value for IUCN conservation status
+	revisionTagOAuth CID: 168
+	revisionTagadding obsolete/deprecated property
+	revisionTagmobile app edit
+	revisionTagmobile edit
+	revisionTagadding Qid as label/description/alias
+	revisionTagadding invalid links
+	revisionTagOAuth CID: 378
+	revisionTagrepeated xwiki CoI abuse
+	revisionTagredirect created
+	revisionTagremoval of gender property
+	revisionTagEmpty
