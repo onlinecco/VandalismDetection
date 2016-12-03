@@ -1,0 +1,120 @@
+contentType
+	contentTypeTEXT
+	contentTypeMISC
+	contentTypeSITELINK
+	contentTypeSTATEMENT
+	contentTypeEmpty
+	contentTypeUnknown
+revisionSubaction
+	revisionSubactionset
+	revisionSubactionfrom
+	revisionSubactioncreate
+	revisionSubactionupdate
+	revisionSubactionremove
+	revisionSubactionto
+	revisionSubactionadd
+	revisionSubactionadd-both
+	revisionSubactionconnect
+	revisionSubactionoverride
+	revisionSubactionset-both
+	revisionSubactionEmpty
+	revisionSubactionUnknown
+revisionPrevAction
+	revisionPrevActionrestore
+	revisionPrevActionclientsitelink
+	revisionPrevActionrollback
+	revisionPrevActionwbsetclaim
+	revisionPrevActionwbsetreference
+	revisionPrevActionwbsetaliases
+	revisionPrevActionwbsetclaimvalue
+	revisionPrevActionwbsetdescription
+	revisionPrevActionwbeditentity
+	revisionPrevActionwbmergeitems
+	revisionPrevActionwbcreateclaim
+	revisionPrevActionwbsetlabel
+	revisionPrevActionwbsetsitelink
+	revisionPrevActionwbremoveclaims
+	revisionPrevActionundo
+	revisionPrevActionwbremovequalifiers
+	revisionPrevActionwbsetqualifier
+	revisionPrevActionEmpty
+	revisionPrevActionUnknown
+revisionAction
+	revisionActionrestore
+	revisionActionclientsitelink
+	revisionActionwbsetqualifier
+	revisionActionwbsetclaimvalue
+	revisionActionemptyComment
+	revisionActionwbcreateclaim
+	revisionActionwbremoveclaims
+	revisionActionwbsetclaim
+	revisionActionunknownCommentType
+	revisionActionwblinktitles
+	revisionActionwbsetdescription
+	revisionActionwbmergeitems
+	revisionActionwbremovereferences
+	revisionActionrollback
+	revisionActionwbsetreference
+	revisionActionwbsetaliases
+	revisionActionundo
+	revisionActionwbsetsitelink
+	revisionActionwbremovequalifiers
+	revisionActionsetPageProtection
+	revisionActionwbeditentity
+	revisionActionwbsetlabel
+	revisionActionchangePageProtection
+	revisionActionwbsetlabeldescriptionaliases
+	revisionActionrevisionActionEmpty
+	revisionActionrevisionActionUnknown
+revisionTag
+	revisionTag"new editor removing statement
+	revisionTagOAuth CID: 336
+	revisionTagpossible vandalism
+	revisionTagOAuth CID: 408
+	revisionTag"new editor removing sitelink
+	revisionTagadding potentially mistaken label/description/alias
+	revisionTagUnexpected value for IMDb identifier
+	revisionTagself-referencing
+	revisionTag"description ending with punctuation
+	revisionTag"adding language as label/description/alias
+	revisionTagpossible test edit
+	revisionTag"possible non-constructive description
+	revisionTagnew editor removing sitelink
+	revisionTagadding latin script language description in non-latin script
+	revisionTag"adding non-latin script language description in latin script
+	revisionTag"adding potentially mistaken label/description/alias
+	revisionTag"emoji
+	revisionTagnew editor changing statement
+	revisionTag"self-referencing
+	revisionTagURL in item
+	revisionTag"possible vandalism
+	revisionTagemoji
+	revisionTagWE-Framework gadget
+	revisionTag"possible test edit
+	revisionTagdescription ending with punctuation
+	revisionTagwikisyntax
+	revisionTagnew editor removing statement
+	revisionTag"OAuth CID: 93
+	revisionTagpossible non-constructive description
+	revisionTagadding language as label/description/alias
+	revisionTagadding non-latin script language description in latin script
+	revisionTagOAuth CID: 93
+	revisionTagUnexpected value for IUCN conservation status
+	revisionTag"OAuth CID: 168
+	revisionTagOAuth CID: 168
+	revisionTag"Unexpected value for IMDb identifier
+	revisionTag"adding latin script language description in non-latin script
+	revisionTag"removal of gender property
+	revisionTag"redirect created
+	revisionTagUnexpected value for gender
+	revisionTag"adding Qid as label/description/alias
+	revisionTag"wikisyntax
+	revisionTagadding Qid as label/description/alias
+	revisionTag"mobile edit
+	revisionTagadding invalid links
+	revisionTagOAuth CID: 378
+	revisionTagredirect created
+	revisionTagadding obsolete/deprecated property
+	revisionTagremoval of gender property
+	revisionTagrevisionTagEmpty
+	revisionTagrevisionTagUnknown
