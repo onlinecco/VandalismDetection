@@ -1,6 +1,11 @@
 import pandas as pd
+
+featureFile = './FEATURES_2016_03'
+tmpFile = './tmp.csv'
+outFile = './big.out.csv'
+keyFile = './key'
 #STEP1 clean the attribute we do not need
-df = pd.read_csv('./features/FEATURES_2016_01')
+df = pd.read_csv(featureFile)
 df.drop('revisionId',1,inplace=True)
 df.drop('userId',1,inplace=True)
 df.drop('userName',1,inplace=True)
@@ -16,7 +21,7 @@ df.drop('property',1,inplace=True)
 df.drop('userCity',1,inplace=True)
 df.drop('userContinent',1,inplace=True)
 df.drop('userCountry',1,inplace=True)
-#df.drop('userCounty',1,inplace=True)
+df.drop('userCounty',1,inplace=True)
 df.drop('userRegion',1,inplace=True)
 df.drop('userTimeZone',1,inplace=True)
 df.drop('literalValue',1,inplace=True)
@@ -51,144 +56,43 @@ df['rollbackReverted'] = df['rollbackReverted'].map({'T':1,'F':0})
 df['isLivingPerson'] = df['isLivingPerson'].map({'T':1,'F':0})
 df['englishLabelTouched'] = df['englishLabelTouched'].map({'T':1,'F':0})
 df['isLatinLanguage'] = df['isLatinLanguage'].map({'T':1,'F':0})
-df.to_csv('./features/FEATURES_2016_01_1.csv',index = False)
-
-#STEP3 check if the data contains non ascii, if yes delete whole row (don't do this for test data)
-
-df = open('./features/FEATURES_2016_01_1.csv')
-print 'finished reading'
-line = df.readline()
-
-w = open('./features/FEATURES_2016_01_2.csv','w')
-w.write(line)
-while True:
-	line = df.readline()
-	if line == "":
-		break
-	c = line.strip().split(",")
-	flag = True
-	for token in c:
-		try:
-			float(token)
-		except ValueError:
-			try:
-				if isinstance(token, str) and len(token) ==3:
-					token[0].decode('ascii')
-			except UnicodeDecodeError:
-				flag = False
-				break
-	if flag:
-		w.write(line)
-w.close()
-df.close()
-
-#STEP4 find all keys for one hot link
-filelist = ['FEATURES_2015_07_2.csv','FEATURES_2015_05_2.csv','FEATURES_2015_01_2.csv','FEATURES_2015_03_2.csv','FEATURES_2015_11_2.csv','FEATURES_2016_01_2.csv']
-
-#1 contentType
-#57 revisionAction
-#58 revisionPrevAction
-#59 revisionSubaction
-#60 revisionTag
-contentType = {}
-revisionAction = {}
-revisionPrevAction = {}
-revisionSubaction = {}
-revisionTag = {}
-for f in filelist:
-	f = open('./features/'+f)
-	f.readline()
-	for line in f:
-		line = line.strip().split(',')
-		contentType[line[1]] = 1
-		revisionAction[line[57]] = 1
-		revisionPrevAction[line[58]] = 1
-		revisionSubaction[line[59]] = 1
-		#escape " in the first char
-		if line[60] and line[60][0] == '"':
-			revisionTag[line[60][1:]] = 1
-		else:
-			revisionTag[line[60]] = 1
-	f.close()
-
-out = open('./features/key','w')
-out.write('contentType\n')
-for key in contentType:
-	if key == "":
-		continue
-	out.write('\tcontentType'+key+'\n')
-out.write('\tcontentTypeEmpty\n')
-
-out.write('revisionAction\n')
-for key in revisionAction:
-	if key == "":
-		continue
-	out.write('\trevisionAction'+key+'\n')
-out.write('\trevisionActionEmpty\n')
-
-
-out.write('revisionPrevAction\n')
-for key in revisionPrevAction:
-	if key == "":
-		continue
-	out.write('\trevisionPrevAction'+key+'\n')
-out.write('\trevisionPrevActionEmpty\n')
-
-
-out.write('revisionSubaction\n')
-for key in revisionSubaction:
-	if key == "":
-		continue
-	out.write('\trevisionSubaction'+key+'\n')
-out.write('\trevisionSubactionEmpty\n')
-
-out.write('revisionTag\n')
-for key in revisionTag:
-	if key == "":
-		continue
-	out.write('\ttrevisionTag'+key+'\n')
-out.write('\trevisionTagEmpty\n')
-
-out.close()
-
+df.to_csv(tmpFile,index = False)
 
 #STEP5 One hot link
-out = open('./features/selected_data.csv','w')
+out = open(outFile,'w')
 true_output = []
 false_output = []
-filelist = ['FEATURES_2015_07_2.csv','FEATURES_2015_05_2.csv','FEATURES_2015_01_2.csv','FEATURES_2015_03_2.csv','FEATURES_2015_11_2.csv','FEATURES_2016_01_2.csv']
-for f in filelist:
-	f = open('./features/'+f)
-	header = f.readline()
-	for line in f:
-		if int(line.strip()[-1])==1:
-			true_output.append(line)
-		else:
-			if len(false_output)<len(true_output)+50:
-				false_output.append(line)
-	f.close()
+f = open(tmpFile)
+header = f.readline()
+for line in f:
+    if int(line.strip()[-1])==1:
+        true_output.append(line)
+    else:
+        if len(false_output)<len(true_output)+50:
+            false_output.append(line)
+f.close()
 
 out.write(header)
 for line in true_output:
-	out.write(line)
+    out.write(line)
 for line in false_output:
-	out.write(line)
+    out.write(line)
 out.close()
 
 
-
-f = open('./features/key')
+f = open(keyFile)
 key_dic = {}
 for line in f:
-	if not '\t' in line:
-		curkey = line.strip()
-		key_dic[curkey] = []
-	else:
-		key_dic[curkey].append(line.strip())
+    if not '\t' in line:
+        curkey = line.strip()
+        key_dic[curkey] = []
+    else:
+        key_dic[curkey].append(line.strip())
 
 
-data = open('./features/selected_data.csv')
-datalist =[line.strip().split(',') for line in data]
+data = open(outFile)
+
+datalist = [line.strip().split(',') for line in data]
 
 contentType = key_dic['contentType']
 for val in contentType:
@@ -268,9 +172,9 @@ for i in range(1,len(datalist)):
 			datalist[i].append('0')
 
 
-
 outputlist = [','.join(datalist[i])+'\n' for i in range(len(datalist))]
-out = open('./features/selected_out.csv','w')
+out = open(outFile,'w')
+
 for line in outputlist:
 	out.write(line)
 f.close()
@@ -278,13 +182,41 @@ out.close()
 
 
 #Step6 final prep, delete unused attribute
-df = pd.read_csv('./features/selected_out.csv')
+df = pd.read_csv(outFile)
+
 df.drop('contentType',1,inplace=True)
 df.drop('revisionTag',1,inplace=True)
 df.drop('revisionAction',1,inplace=True)
 df.drop('revisionPrevAction',1,inplace=True)
 df.drop('revisionSubaction',1,inplace=True)
-df.drop('groupId',1,inplace=True
+df.drop('groupId',1,inplace=True)
 df.insert(0,'rollbackReverted_val', df['rollbackReverted'])
 df.drop('rollbackReverted',1,inplace=True)
-df.to_csv('./features/selected_out.csv',index = False)
+df.drop('itemValue',1,inplace=True)
+
+df.to_csv(outFile, index=False)
+
+
+f = open(outFile)
+out = open('./newfile.csv','w')
+
+title = f.readline().strip()
+out.write(title+'\n')
+line = f.readline()
+while len(line) > 1:
+	arr = line.strip().split(',')
+	for i in range(len(arr)):
+		try:
+			float(arr[i])
+		except:
+			arr[i] = 0
+		if i == 0:
+			out.write(str(arr[i]))
+		else:
+			out.write(','+str(arr[i]))
+	out.write('\n')
+	line = f.readline()
+out.close()
+f.close()
+
+
