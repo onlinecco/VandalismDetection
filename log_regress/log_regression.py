@@ -2,11 +2,11 @@ from utils import *
 
 
 # Number of revisions and ratio between train:test desired
-num_revisions = 20000 
+num_revisions = 10000 
 train_test_split = num_revisions * 3 / 4
 
 # Process csv and convert non numerical data
-data_chunk = get_data_chunk()
+data_chunk = get_data_chunk(num_revisions=num_revisions)
 X, Y = process_chunk(data_chunk)
 
 # Split data accordingly and replace unknown values
