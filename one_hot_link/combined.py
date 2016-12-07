@@ -6,9 +6,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.externals import joblib
 
 
-featureFile = './FEATURES_2016_03'
+featureFile = './FEATURES_2016_03.csv'
 tmpFile = './tmp'
-outFile = './out'
+outFile = './out.csv'
 keyFile = './key'
 #STEP1 clean the attribute we do not need
 df = pd.read_csv(featureFile)
@@ -68,25 +68,25 @@ df['isLatinLanguage'] = df['isLatinLanguage'].map({'T':1,'F':0})
 df.to_csv(tmpFile,index = False)
 
 #STEP5 One hot link
-out = open(outFile,'w')
-true_output = []
-false_output = []
-f = open(tmpFile)
-header = f.readline()
-for line in f:
-    if int(line.strip()[-1])==1:
-        true_output.append(line)
-    else:
-        if len(false_output)<len(true_output)+50:
-            false_output.append(line)
-f.close()
+# out = open(outFile,'w')
+# true_output = []
+# false_output = []
+# f = open(tmpFile)
+# header = f.readline()
+# for line in f:
+#     if int(line.strip()[-1])==1:
+#         true_output.append(line)
+#     else:
+#         if len(false_output)<len(true_output)+50:
+#             false_output.append(line)
+# f.close()
 
-out.write(header)
-for line in true_output:
-    out.write(line)
-for line in false_output:
-    out.write(line)
-out.close()
+# out.write(header)
+# for line in true_output:
+#     out.write(line)
+# for line in false_output:
+#     out.write(line)
+# out.close()
 
 
 f = open(keyFile)
@@ -99,7 +99,7 @@ for line in f:
         key_dic[curkey].append(line.strip())
 
 
-data = open(outFile)
+data = open(tmpFile)
 
 datalist = [line.strip().split(',') for line in data]
 
@@ -109,6 +109,7 @@ for val in contentType:
 for i in range(1,len(datalist)):
 	find = False
 	for val in contentType:
+		#print datalist[i][1]
 		val = val[len('contentType'):]
 		if datalist[i][1] == val:
 			datalist[i].append('1')
@@ -124,9 +125,9 @@ for i in range(1,len(datalist)):
 	find = False
 	for val in revisionAction:
 		val = val[len('revisionAction'):]
-		if datalist[i][57] == val:
+		if datalist[i][56] == val:
 			datalist[i].append('1')
-		elif val == 'Empty' and datalist[i][57]=='':
+		elif val == 'Empty' and datalist[i][56]=='':
 			datalist[i].append('1')
 		else:
 			datalist[i].append('0')
@@ -138,9 +139,9 @@ for i in range(1,len(datalist)):
 	find = False
 	for val in revisionPrevAction:
 		val = val[len('revisionPrevAction'):]
-		if datalist[i][58] == val:
+		if datalist[i][57] == val:
 			datalist[i].append('1')
-		elif val == 'Empty' and datalist[i][58]=='':
+		elif val == 'Empty' and datalist[i][57]=='':
 			datalist[i].append('1')
 		else:
 			datalist[i].append('0')
@@ -151,11 +152,12 @@ for val in revisionSubaction:
 	datalist[0].append(val)
 for i in range(1,len(datalist)):
 	find = False
+	#print datalist[i][59]
 	for val in revisionSubaction:
 		val = val[len('revisionSubaction'):]
-		if datalist[i][59] == val:
+		if datalist[i][58] == val:
 			datalist[i].append('1')
-		elif val == 'Empty' and datalist[i][59]=='':
+		elif val == 'Empty' and datalist[i][58]=='':
 			datalist[i].append('1')
 		else:
 			datalist[i].append('0')
@@ -168,9 +170,9 @@ for i in range(1,len(datalist)):
 	for val in revisionTag:
 		val = val[len('revisionTag'):]
 
-		if datalist[i][60] == val or (datalist[i][60] and datalist[i][60][1:] == val):
+		if datalist[i][59] == val or (datalist[i][59] and datalist[i][59][1:] == val):
 			datalist[i].append('1')
-		elif val == 'Empty' and datalist[i][60]=='':
+		elif val == 'Empty' and datalist[i][59]=='':
 			datalist[i].append('1')
 		else:
 			datalist[i].append('0')
