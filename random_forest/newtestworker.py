@@ -7,12 +7,20 @@ import numpy as np
 import random
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.externals import joblib
+
 import StringIO
 
+featureFile = './feature'
 
-featureFile = '/home/barberry/data/feature'
-keyFile = '/home/barberry/programs/key'
-clf = joblib.load('/home/barberry/programs/tree.pkl')
+# featureFile = '/home/barberry/data/feature'
+# tmpFile = './tmp'
+# outFile = './out'
+
+
+
+keyFile = './key'
+
+clf = joblib.load('tree.pkl')
 
 f = open(keyFile)
 key_dic = {}
@@ -25,6 +33,8 @@ for line in f:
 f.close()
 
 def test():
+	# tmpFile = StringIO.StringIO()
+	# outFile = StringIO.StringIO()
 	#STEP1 clean the attribute we do not need
 	try:
 		df = pd.read_csv(featureFile)
@@ -252,31 +262,32 @@ def test():
 		y_test = Y
 		pre = clf.predict_proba(x_test)
 
-		transferFile = open('/home/barberry/data/result', 'w')
-		# transferFile = open('./result', 'w')
+		# transferFile = open('/home/barberry/data/result', 'w')
+		transferFile = open('./result', 'w')
 
 		for i in range(len(revisionIdStr)):
 			transferFile.write(str(revisionIdStr[i])+' '+ str(pre[i,1])+'\n')
 		transferFile.close()
 	except:
-		transferFile = open('/home/barberry/data/result', 'w')
+		transferFile = open('./result', 'w')
 		transferFile.write('0')
 		transferFile.close()
 
+test()
 
-a = open("/home/barberry/data/notify",'w')
-a.write("datamodelloaded\n")
-a.close()
-while True:
+# a = open("/home/barberry/data/notify",'w')
+# a.write("datamodelloaded\n")
+# a.close()
+# while True:
 
-	a = open("/home/barberry/data/notify",'r')
-	b = a.read().strip()
-	a.close()
-	if b == "datahasarrived":
+# 	a = open("/home/barberry/data/notify",'r')
+# 	b = a.read().strip()
+# 	a.close()
+# 	if b == "datahasarrived":
 
-		#predict
-		test()
+# 		#predict
+# 		test()
 		
-		a = open("/home/barberry/data/notify",'w')
-		a.write("classified\n")
-		a.close()
+# 		a = open("/home/barberry/data/notify",'w')
+# 		a.write("classified\n")
+# 		a.close()
