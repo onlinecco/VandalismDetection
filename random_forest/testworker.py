@@ -10,9 +10,9 @@ from sklearn.externals import joblib
 
 
 featureFile = '/home/barberry/data/feature'
-tmpFile = './tmp'
-outFile = './out'
-keyFile = './key'
+tmpFile = '/home/barberry/programs/tmp'
+outFile = '/home/barberry/programs/out'
+keyFile = '/home/barberry/programs/key'
 
 clf = joblib.load('/home/barberry/programs/tree.pkl')
 
