@@ -14,7 +14,7 @@ tmpFile = './tmp'
 outFile = './out'
 keyFile = './key'
 
-clf = joblib.load('tree.pkl')
+clf = joblib.load('/home/barberry/programs/tree.pkl')
 
 f = open(keyFile)
 key_dic = {}
