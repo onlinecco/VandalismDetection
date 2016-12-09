@@ -134,9 +134,9 @@ def test():
 		find = False
 		for val in revisionAction:
 			val = val[len('revisionAction'):]
-			if datalist[i][57] == val:
+			if datalist[i][56] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][57]=='':
+			elif val == 'Empty' and datalist[i][56]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -148,9 +148,9 @@ def test():
 		find = False
 		for val in revisionPrevAction:
 			val = val[len('revisionPrevAction'):]
-			if datalist[i][58] == val:
+			if datalist[i][57] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][58]=='':
+			elif val == 'Empty' and datalist[i][57]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -163,9 +163,9 @@ def test():
 		find = False
 		for val in revisionSubaction:
 			val = val[len('revisionSubaction'):]
-			if datalist[i][59] == val:
+			if datalist[i][58] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][59]=='':
+			elif val == 'Empty' and datalist[i][58]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -178,9 +178,9 @@ def test():
 		for val in revisionTag:
 			val = val[len('revisionTag'):]
 
-			if datalist[i][60] == val or (datalist[i][60] and datalist[i][60][1:] == val):
+			if datalist[i][59] == val or (datalist[i][59] and datalist[i][59][1:] == val):
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][60]=='':
+			elif val == 'Empty' and datalist[i][59]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
