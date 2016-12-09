@@ -332,7 +332,7 @@ public class Demultiplexer implements Runnable {
 					while (line != null) {
 						String[] content = line.split(" ");
                         if (content.length() == 1) {
-                            sendClassificationResult(Long.parseLong(curr_revision), 0, resultPrinter);
+                            sendClassificationResult(Long.parseLong(curr_revision_id), 0, resultPrinter);
                         }
                         else {
 						sendClassificationResult(Long.parseLong(content[0]),
