@@ -279,6 +279,7 @@ def test():
 	transferFile = open('/home/barberry/data/result', 'w')
 	for i in range(len(revisionIdStr)):
 		transferFile.write(str(revisionIdStr[i])+' '+ str(pre[i,1])+'\n')
+    transferFile.close()
 
 
 a = open("/home/barberry/data/notify",'w')
