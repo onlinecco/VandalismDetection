@@ -259,7 +259,7 @@ public class Demultiplexer implements Runnable {
 				}
                 
                 try {
-                    curr_revision_id = new String(bytes1).split(',')[0];
+                    curr_revision_id = new String(bytes1).split(",")[0];
                 }              
                 catch { 
                     LOG.info("Revision id from meta data failed"); 
