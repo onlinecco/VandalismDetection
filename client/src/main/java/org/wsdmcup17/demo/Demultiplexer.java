@@ -41,6 +41,7 @@ import org.apache.log4j.Logger;
  * Wikidata Toolkit. The metadata is parsed and put in a queue for further
  * processing.
  */
+static String curr_revision_id;
 public class Demultiplexer implements Runnable {
 	
 	private static final Logger
@@ -256,6 +257,14 @@ public class Demultiplexer implements Runnable {
 				if (firstRow){
 					firstRow = false;
 				}
+                
+                try {
+                    curr_revision_id = new String(bytes1).split(',')[0];
+                }              
+                catch { 
+                    LOG.info("Revision id from meta data failed"); 
+                }
+                
 				LOG.info(new String(bytes1, StandardCharsets.UTF_8));
 				om2.flush();
 				om2.close();
@@ -322,8 +331,13 @@ public class Demultiplexer implements Runnable {
 					String line = br.readLine();
 					while (line != null) {
 						String[] content = line.split(" ");
+                        if (content.length() == 1) {
+                            sendClassificationResult(Long.parseLong(curr_revision), 0, resultPrinter);
+                        }
+                        else {
 						sendClassificationResult(Long.parseLong(content[0]),
 								Float.valueOf(content[1]), resultPrinter);
+                        }
 						line = br.readLine();
 					}
 
