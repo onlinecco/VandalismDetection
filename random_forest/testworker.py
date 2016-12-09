@@ -111,7 +111,7 @@ def test():
 
 	data = open(outFile)
 	datalist = [line.strip().split(',') for line in data]
-    data.close()
+	data.close()
 
 	contentType = key_dic['contentType']
 	for val in contentType:
@@ -279,7 +279,7 @@ def test():
 	transferFile = open('/home/barberry/data/result', 'w')
 	for i in range(len(revisionIdStr)):
 		transferFile.write(str(revisionIdStr[i])+' '+ str(pre[i,1])+'\n')
-    transferFile.close()
+	transferFile.close()
 
 
 a = open("/home/barberry/data/notify",'w')
