@@ -110,8 +110,8 @@ def test():
 
 
 	data = open(outFile)
-
 	datalist = [line.strip().split(',') for line in data]
+    data.close()
 
 	contentType = key_dic['contentType']
 	for val in contentType:
