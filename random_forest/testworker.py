@@ -10,11 +10,11 @@ from sklearn.externals import joblib
 
 
 featureFile = '/home/barberry/data/feature'
-tmpFile = './tmp'
-outFile = './out'
-keyFile = './key'
+tmpFile = '/home/barberry/programs/tmp'
+outFile = '/home/barberry/programs/out'
+keyFile = '/home/barberry/programs/key'
 
-clf = joblib.load('tree.pkl')
+clf = joblib.load('/home/barberry/programs/tree.pkl')
 
 f = open(keyFile)
 key_dic = {}
@@ -111,7 +111,7 @@ def test():
 
 	data = open(outFile)
 	datalist = [line.strip().split(',') for line in data]
-    data.close()
+	data.close()
 
 	contentType = key_dic['contentType']
 	for val in contentType:
@@ -134,9 +134,9 @@ def test():
 		find = False
 		for val in revisionAction:
 			val = val[len('revisionAction'):]
-			if datalist[i][57] == val:
+			if datalist[i][56] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][57]=='':
+			elif val == 'Empty' and datalist[i][56]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -148,9 +148,9 @@ def test():
 		find = False
 		for val in revisionPrevAction:
 			val = val[len('revisionPrevAction'):]
-			if datalist[i][58] == val:
+			if datalist[i][57] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][58]=='':
+			elif val == 'Empty' and datalist[i][57]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -163,9 +163,9 @@ def test():
 		find = False
 		for val in revisionSubaction:
 			val = val[len('revisionSubaction'):]
-			if datalist[i][59] == val:
+			if datalist[i][58] == val:
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][59]=='':
+			elif val == 'Empty' and datalist[i][58]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -178,9 +178,9 @@ def test():
 		for val in revisionTag:
 			val = val[len('revisionTag'):]
 
-			if datalist[i][60] == val or (datalist[i][60] and datalist[i][60][1:] == val):
+			if datalist[i][59] == val or (datalist[i][59] and datalist[i][59][1:] == val):
 				datalist[i].append('1')
-			elif val == 'Empty' and datalist[i][60]=='':
+			elif val == 'Empty' and datalist[i][59]=='':
 				datalist[i].append('1')
 			else:
 				datalist[i].append('0')
@@ -279,7 +279,7 @@ def test():
 	transferFile = open('/home/barberry/data/result', 'w')
 	for i in range(len(revisionIdStr)):
 		transferFile.write(str(revisionIdStr[i])+' '+ str(pre[i,1])+'\n')
-    transferFile.close()
+	transferFile.close()
 
 
 a = open("/home/barberry/data/notify",'w')
